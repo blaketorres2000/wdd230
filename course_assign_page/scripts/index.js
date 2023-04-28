@@ -4,17 +4,22 @@
 // let LastModif = new Date(document.lastModified);    
 // lastUpdated.textContent = 'Last updated: ' + LastModif; 
 
-// Create a new Date object
-var currentDate = new Date();
+function updateDateTime() {
+    // Create a new Date object
+    let currentDate = new Date();
 
-// Get the date
-var date = currentDate.toDateString();
+    // Get the date
+    let date = currentDate.toDateString();
 
-// Get the time
-var time = currentDate.toLocaleTimeString();
+    // Get the time
+    let time = currentDate.toLocaleTimeString();
 
-// Use querySelector to select the HTML element
-var datetimeElement = document.querySelector('#datetime');
+    // Use querySelector to select the HTML element
+    let datetimeElement = document.querySelector('#datetime');
 
-// Set the content of the HTML element to the date and time
-datetimeElement.textContent = 'Last Updated: ' + date + time;
+    // Set the content of the HTML element to the date and time
+    datetimeElement.textContent = 'Last Updated: ' + date + ' ' + time;
+}
+
+updateDateTime();
+setInterval(updateDateTime, 1000);
