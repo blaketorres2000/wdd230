@@ -9,7 +9,7 @@ function copyNameState() {
     let currentDate = new Date();
     let currentYear = currentDate.getFullYear();
     let year = document.querySelector('#footerName');
-    year.textContent = copyrightSymbol + '  ' + currentYear + '  .:| Blake K. Torres |:. Texas'
+    year.textContent = copyrightSymbol + '  ' + currentYear + '  .:| Blake K. Torres |:. Texas';
 }
 
 function updateDateTime() {
