@@ -3,7 +3,8 @@
 function updateDateTime() {
     var lastUpdated = document.querySelector('datetime');
     let oLastModif = new Date(document.lastModified);    
-    lastUpdated.textContent = 'Last updated: ' + oLastModif; 
+    lastUpdated = 'Last updated: ' + oLastModif; 
+    return lastUpdated
 }
 
 updateDateTime();
