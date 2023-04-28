@@ -29,4 +29,5 @@ function updateDateTime() {
     datetimeElement.textContent = 'Last Updated: ' + date + '   ' + time;
 }
 
+copyNameState();
 updateDateTime();
