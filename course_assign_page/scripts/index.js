@@ -2,7 +2,8 @@
 // time the site was updated.
 function updateDateTime() {
     var lastUpdated = document.querySelector('datetime');
-    lastUpdated.textContent = 'Last updated: ' + alert(document.lastModified); 
+    let oLastModif = new Date(document.lastModified);    
+    lastUpdated.textContent = 'Last updated: ' + oLastModif; 
 }
 
 updateDateTime();
