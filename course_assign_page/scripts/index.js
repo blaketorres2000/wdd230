@@ -18,8 +18,7 @@ function updateDateTime() {
     let datetimeElement = document.querySelector('#datetime');
 
     // Set the content of the HTML element to the date and time
-    datetimeElement.textContent = 'Last Updated: ' + date + ' ' + time;
+    datetimeElement.textContent = 'Last Updated: ' + date + '   ' + time;
 }
 
 updateDateTime();
-setInterval(updateDateTime, 0);
