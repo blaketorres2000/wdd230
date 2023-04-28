@@ -7,4 +7,4 @@ function updateDateTime() {
     lastUpdated.textContent = 'Last updated: ' + formatDate; 
 }
 
-updateDateTime()
+updateDateTime();
