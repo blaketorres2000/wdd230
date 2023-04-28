@@ -22,4 +22,4 @@ function updateDateTime() {
 }
 
 updateDateTime();
-setInterval(updateDateTime, 1000);
+setInterval(updateDateTime, 0);
