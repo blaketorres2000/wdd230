@@ -4,6 +4,14 @@
 // let LastModif = new Date(document.lastModified);    
 // lastUpdated.textContent = 'Last updated: ' + LastModif; 
 
+function copyNameState() {
+    const copyrightSymbol = '\u00A9';
+    let currentDate = new Date();
+    let currentYear = currentDate.getFullYear();
+    let year = document.querySelector('#footerName');
+    year.textContent = copyrightSymbol + currentYear + '.:| Blake K. Torres |:. Texas'
+}
+
 function updateDateTime() {
     // Create a new Date object
     let currentDate = new Date();
