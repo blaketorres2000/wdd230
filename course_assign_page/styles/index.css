@@ -62,4 +62,5 @@ footer {
     font-family: "Lato", "Helvetica", sans-serif;
     display: grid;
     place-items: center;
+    line-height: .15;
 }
