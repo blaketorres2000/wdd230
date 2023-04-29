@@ -5,7 +5,7 @@
 
 /* header */
 header {
-    background-color: #005866;
+    background-color: #0abeda;
     color: #000000;
     display: grid;
     grid-template-columns: 270px auto;
@@ -58,7 +58,7 @@ main p {
 }
 
 footer {
-    background-color: #005866;
+    background-color: #0abeda;
     height: 150px;
     font-size: 30px;
     font-family: "Lato", "Helvetica", sans-serif;
