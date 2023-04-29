@@ -15,7 +15,7 @@ function updateDateTime() {
     // let currentDate = new Date();
     // let date = currentDate.toDateString();
     // let time = currentDate.toLocaleTimeString();
-    let dateUpdate = document.lastModified();
+    let dateUpdate = document.lastModified;
     let datetimeElement = document.querySelector('#datetime');
     datetimeElement.textContent = 'Last Updated: ' + dateUpdate;
 }
