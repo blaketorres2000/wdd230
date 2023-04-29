@@ -12,11 +12,12 @@ function copyNameState() {
 // This function is to update the date and time for the last
 // time the site was updated.
 function updateDateTime() {
-    let currentDate = new Date();
-    let date = currentDate.toDateString();
-    let time = currentDate.toLocaleTimeString();
+    // let currentDate = new Date();
+    // let date = currentDate.toDateString();
+    // let time = currentDate.toLocaleTimeString();
+    let dateUpdate = document.lastModified();
     let datetimeElement = document.querySelector('#datetime');
-    datetimeElement.textContent = 'Last Updated: ' + date + '   ' + time;
+    datetimeElement.textContent = 'Last Updated: ' + dateUpdate;
 }
 
 copyNameState();
