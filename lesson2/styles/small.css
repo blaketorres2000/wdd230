@@ -1,0 +1,132 @@
+#content {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    max-width: 1800px;
+    background-color: #0abeda;
+    color: #000000;
+    display: grid;
+    place-items: center;
+    height: 300px;
+    font-family: "IM Fell French Canon SC";
+    margin-bottom: 50px;
+    line-height: .5;
+}
+
+
+header h1 {
+    font-size: 95px;
+    margin-top: 40px;
+}
+
+header h2 {
+    font-size: 60px;
+}
+ 
+/* main */
+main {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    text-align: center;
+}
+
+#wedevs {
+    max-width: 500px;
+}
+
+#apple {
+    max-width: 500px;
+}
+
+#panic {
+    max-width: 500px;
+}
+
+.alignment {
+    background-color: rgb(209, 205, 205);
+    height: 1850px;
+    margin-right: 10px;
+}
+
+.contrast {
+    background-color: rgb(209, 205, 205);
+    height: 1850px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.space {
+    background-color: rgb(209, 205, 205);
+    height: 1850px;
+    margin-left: 10px;
+}
+
+.alignment h2 {
+    background-color: #0abeda51;
+    padding: 47px;
+    margin-bottom: 85px;
+}
+
+.contrast h2 {
+    background-color: #0abeda51;
+    margin-bottom: 85px;
+    padding: 47px;
+}
+
+.space h2 {
+    background-color: #0abeda51;
+    font-size: 50px;
+    padding: 30px;
+    margin-bottom: 85px;
+}
+
+main h2 {
+    margin-top: 5px;
+    font-family: "IM Fell French Canon SC";
+    font-size: 70px;
+}
+
+main h3 {
+    margin-top: 50px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-size: 45px;
+}
+
+main p {
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-size: 30px;
+}
+
+main img {
+    margin-top: 20px;
+}
+
+.contrast p {
+    margin-top: 50px;
+}
+
+.space p {
+    margin-top: 140px;
+}
+
+main h4 {
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #0abeda;
+    height: 150px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    display: grid;
+    place-items: center;
+    line-height: .15;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 25px;
+}
