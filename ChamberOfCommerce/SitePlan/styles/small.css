@@ -14,6 +14,7 @@ header {
     grid-template-columns: 150px auto;
     align-items: center;
     background-color: #297373;
+    font-size: 18px;
     font-family: "Castoro Titling", sans-serif;
     padding-right: 75px;
 }
@@ -36,7 +37,6 @@ nav a {
     margin-left: 20px;
     color: #e6e6e6;
     text-decoration: none;
-    font-size: 18px;
     padding: 35px;
     text-align: center;
     font-weight: 1000;
