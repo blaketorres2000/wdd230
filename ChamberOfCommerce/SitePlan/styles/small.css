@@ -3,13 +3,13 @@ body {
 }
 
 #content {
-    width: 1600px;
+    width: 1200px;
     margin: 0 auto;
     background-color: white;
 }
 
 header {
-    width: 100%;
+    width: 96%;
     display: grid; 
     grid-template-columns: 150px auto;
     align-items: center;
