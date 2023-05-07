@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    width: 70%;
+    width: 96%;
     display: grid; 
     grid-template-columns: 150px auto;
     align-items: center;
