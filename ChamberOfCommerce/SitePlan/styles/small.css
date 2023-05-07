@@ -1,0 +1,195 @@
+body {
+    background-color: white;
+}
+
+#content {
+    width: 1600px;
+    /* margin: 0 auto; */
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background-color: #297373;
+    font-family: "Castoro Titling", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 35px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+nav :hover {
+    color: #39393a;
+    background-color: #ff8552;
+    text-decoration: underline;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap");
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #35a1b2;
+    --secondary-color: #297373;
+    --accent1-color: #ff8552;
+    --accent2-color: #e6e6e6;
+    --accent3-color: #39393a;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Castoro Titling', sans-serif;
+    --paragraph-font: 'Castoro Titling', 'Bruno Ace SC', serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #39393a;
+    /* headlines on a white background */
+    --headline-color-on-color: #e6e6e6;
+    /* headlines on a colored background */
+    --paragraph-color: #39393a;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #e6e6e6;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #297373;
+    --nav-link-color: #297373;
+    --nav-background-color: #e6e6e6;
+    --nav-hover-link-color: #39393a;
+    --nav-hover-background-color: #ff8552;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+h2 {
+    text-align: left;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+header>h1,
+header>h2 {
+    color: var(--headline-color-on-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: #e6e6e6;
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
+    color: #e6e6e6;
+}
+
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
