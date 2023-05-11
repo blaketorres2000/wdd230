@@ -22,6 +22,8 @@ header {
 
 nav {
     display: flex;
+    flex-flow: column;
+	align-items: center;
     justify-content: space-around;
 }
 
