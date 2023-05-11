@@ -138,14 +138,15 @@ p {
 }
 
 .colors {
-    width: 100%;
-    min-width: 350px;
-    margin: 30px auto;
-    text-align: center;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+	align-items: center;
 }
 
 .colors th {
     background-color: #999;
+    height: 3em;
 }
 
 .colors td {
