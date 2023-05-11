@@ -3,4 +3,11 @@
         font-size: 30px;
         flex-direction: row;
     }
+
+    nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+    }
+
 }
