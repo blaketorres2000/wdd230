@@ -15,6 +15,8 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	padding: 10px;
+    padding: 1em;
+    text-align: center;
     background-color: #297373;
     font-size: 18px;
     font-family: "Castoro Titling", sans-serif;
@@ -120,8 +122,6 @@ hr {
 }
 
 header {
-    padding: 1em;
-    text-align: center;
     color: var(--paragraph-color-on-color);
     background-color: var(--paragraph-background-color);
 }

@@ -1,11 +1,11 @@
 // This function is to display the copyright symbol,
 // current date, name, and state.
-function copyNameState() {
+function copyName() {
     const copyrightSymbol = '\u00A9';
     let currentDate = new Date();
     let currentYear = currentDate.getFullYear();
     let year = document.querySelector('#footerName');
-    year.textContent = copyrightSymbol + '  ' + currentYear + '  .:| Blake K. Torres |:. Texas';
+    year.textContent = copyrightSymbol + currentYear + ' Fred Chamber | Blake K. Torres | WDD 230 Project | ';
 }
 
 // This function is to update the date and time for the last
@@ -16,5 +16,4 @@ function updateDateTime() {
     datetimeElement.textContent = 'Last Updated: ' + dateUpdate;
 }
 
-copyNameState();
-updateDateTime();
+copyName() + updateDateTime();
