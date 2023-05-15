@@ -20,7 +20,6 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   background-color: #297373;
 }
 
@@ -29,14 +28,15 @@ header .heading {
   justify-content: flex-start;
   font-size: 20px;
   font-family: "Castoro Titling", sans-serif;
-  padding-top: 3%;
-  padding-right: 50px;
+  padding-top: 1%;
+  padding-right: 10px;
   padding-left: 20px;
   flex-wrap: wrap;
   max-width: 40%;
 }
 
 #date {
+  margin-top: 8%;
   font-weight: 800;
 }
 
@@ -60,10 +60,12 @@ header .cont {
   flex-direction: row;
   gap: 20px;
   padding-top: 4%;
+  order:2;
 }
 
 #col2 {
   padding-top: 2%;
+  order:1;
 }
 
 header .social {
@@ -80,12 +82,14 @@ header nav {
   justify-content: space-between;
   line-height: 45px;
   font-size: 25px;
+  padding-right: 60px;
 }
 
 header .logo {
-  height: 10vh;
+  height: 200px;
   justify-content: center;
   align-content: center;
+  padding-right: 40px;
 }
 
 nav a {
@@ -94,7 +98,7 @@ nav a {
   text-decoration: none;
   text-align: center;
   font-weight: 1000;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 nav :hover {
@@ -160,19 +164,65 @@ input[type="checkbox"]:checked ~ nav {
 /* Main */
 
 main {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.column1 {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .placeholder-box-1,
 .placeholder-box-2,
-.placeholder-box-3,
-.placeholder-box-4,
-.placeholder-box-5,
+.placeholder-box-3 {
+  height: 380px;
+  width: 380px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #e6e6e6;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 770px;
+  gap: 12px;
+}
+
+.placeholder-box-4 {
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 770px;
+  background-color: #e6e6e6;
+}
+
+.placeholder-box-5 {
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 380px;
+  background-color: #e6e6e6;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1160px;
+  width: 380px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #e6e6e6;
+}
+
 .placeholder-box-6 {
-  /* flex: 1 0 33.33%; */
-  height: 200px;
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
   box-sizing: border-box;
 }
@@ -180,8 +230,8 @@ main {
 .inner-box-1,
 .inner-box-2,
 .inner-box-3 {
-  flex: 1 0 33.33%;
-  height: 100%;
+  height: 370px;
+  width: 330px;
   border: 1px solid black;
   box-sizing: border-box;
 }
@@ -191,9 +241,11 @@ main {
 .containerF {
   display: flex;
   flex-direction: column;
-  height: 15vh;
+  height: 270px;
   background-color: #e6e6e6;
   color: #297373;
+  margin-top: 30%;
+  padding-top: 2%;
 }
 
 footer .title {
@@ -227,7 +279,7 @@ footer .address {
 footer #logo {
   display: flex;
   justify-content: center;
-  height: 8vh;
+  height: 150px;
 }
 
 footer .contact {
