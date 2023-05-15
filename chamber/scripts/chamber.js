@@ -27,3 +27,4 @@ function getCurrentDate() {
 }
 
 getCurrentDate();
+displayFooter();

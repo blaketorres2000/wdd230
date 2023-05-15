@@ -1,8 +1,8 @@
-/* --primary-color: #35a1b2;
---secondary-color: #297373;
---accent1-color: #ff8552;
---accent2-color: #e6e6e6;
---accent3-color: #39393a; */
+/* --primary-color: #35a1b2;tourquise
+--secondary-color: #297373; blue teal
+--accent1-color: #ff8552; orange
+--accent2-color: #e6e6e6;grey
+--accent3-color: #39393a; charcoal */
 
 body {
   background-color: white;
@@ -19,14 +19,25 @@ body {
 
 header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  /* align-items: center; */
   background-color: #297373;
 }
 
-header h1 {
-  text-align: center;
-  font-size: 40px;
+header .heading {
+  display: inline-block;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-family: "Castoro Titling", sans-serif;
+  padding-top: 3%;
+  padding-right: 50px;
+  padding-left: 20px;
+  flex-wrap: wrap;
+  max-width: 40%;
+}
+
+#date {
+  font-weight: 800;
 }
 
 header .cont {
@@ -34,6 +45,7 @@ header .cont {
   justify-content: center;
   align-items: flex-start;
   gap: 100px;
+  padding-left: 10%;
 }
 
 .col {
@@ -41,6 +53,17 @@ header .cont {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#col1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 4%;
+}
+
+#col2 {
+  padding-top: 2%;
 }
 
 header .social {
@@ -60,7 +83,7 @@ header nav {
 }
 
 header .logo {
-  height: 8vh;
+  height: 10vh;
   justify-content: center;
   align-content: center;
 }
@@ -71,13 +94,44 @@ nav a {
   text-decoration: none;
   text-align: center;
   font-weight: 1000;
+  justify-content: space-evenly;
 }
 
 nav :hover {
   color: #39393a;
   background-color: #ff8552;
   text-decoration: underline;
+  justify-content: space-evenly;
 }
+
+/* .hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #e6e6e6;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-ul li a {
+  display: inline-block;
+  color: #e6e6e6;
+  font-family: "Castoro Titling", sans-serif;
+  padding: 10px 20px;
+  text-decoration: none;
+} */
+
+
 
 /* .col {
   flex-basis: 50%;
