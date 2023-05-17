@@ -5,6 +5,10 @@
 .col2 {
     margin-right: 50px;
 }
+.social {
+display: flex;
+flex-direction: column;
+}
 
 /* Main */
 

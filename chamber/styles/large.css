@@ -8,6 +8,11 @@
         background-color: #297373;
     }
 
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Main Header Row */
 
     .row-1 {
