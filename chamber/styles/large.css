@@ -60,6 +60,7 @@
         flex-direction: row;
         justify-content: flex-end;
         font-size: 25px;
+        margin-right: 50px;
     }
 
     .social img {
