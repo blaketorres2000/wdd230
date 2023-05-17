@@ -12,9 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/test.css">
 </head>
 
 <body>
@@ -46,8 +44,10 @@
                     </div>
                     <div class="col" id="col2">
                         <nav>
-                            <ul class="nav-ul responsive" id="nav-ul">
-                                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                            <button class="hamburger" id="hamburger">
+                                <i class="bars"></i>
+                            </button>
+                            <ul class="nav-ul" id="nav-ul">
                                 <li><a href="discover.html">Discover</a></li>
                                 <li><a href="directory.html">Directory</a></li>
                                 <li><a href="join.html">Join</a></li>
@@ -62,7 +62,6 @@
             </div>
         </div>
     </header>
-
     <main>
         <div class="column1" id="column1">
             <div class="placeholder-box-1" id="placeholder">
@@ -100,20 +99,21 @@
             </div>
         </div>
     </main>
+
+
+
     <footer>
         <div class="main-part">
             <a id="logo" href="index.html">
                 <img class="logo" src="images/Fred,Texas.png" alt="Fred Chamber of Commerce Logo">
             </a>
             <div class="title-main">
-                <div class="title">
+                <div  class="title">
                     <h3>Fred</h3>
                     <h3>Chamber of Commerce</h3>
                 </div>
                 <div class="address">
-                    <div class="addTitle">
-                        <p>Address:</p>
-                    </div>
+                    <p>Address:</p>
                     <div class="innerAdd">
                         <p>20239 FM 92 S</p>
                         <p>Fred, TX 77616</p>
@@ -125,22 +125,20 @@
             </div>
             <div class="contact">
                 <div class="email">
-                    <div class="addTitle">
-                        <p>Email:</p>
-                    </div>
+                    <p>Email:</p>
                     <p>info@fredcc.org</p>
                 </div>
                 <div class="phone">
-                    <div class="addTitle">
-                        <p>Phone:</p>
-                    </div>
+                    <p>Phone:</p>
                     <p>(409)429-5133</p>
                 </div>
             </div>
         </div>
         <p id="footer"></p>
     </footer>
+
+
+
     <script src="scripts/chamber.js"></script>
 </body>
-
 </html>

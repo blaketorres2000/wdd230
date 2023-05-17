@@ -26,5 +26,11 @@ function getCurrentDate() {
   dateElement.textContent = formattedDate;
 }
 
+// Hamburger Menu // 
+function toggleMenu() {
+  document.getElementsByClassName("nav-ul")[0].classList.toggle("responsive");
+}
+
 getCurrentDate();
 displayFooter();
+toggleMenu();
