@@ -159,35 +159,14 @@ main {
 
 /* Footer */
 
-footer .logo {
-    height: 5vh;
-}
 .contact {
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-size: 1vh;
+    font-size: 2vh;
     gap: 5vw;
 }
           
 .addTitle {
     display: none;
   }
-
-.title {
-    flex-direction: row;
-}
-
-.title h3 {
-    font-size: 1vh;
-    gap: 0;
-}
-
-.address {
-    font-size: 1vh;
-}
-
-#footer {
-    font-size: .75vh;
-    max-width: 100%;
-}
