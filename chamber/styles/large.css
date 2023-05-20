@@ -108,6 +108,7 @@
     main {
         margin-top: 1vh;
         flex-direction: row;
+        justify-content: space-evenly;
         gap: 1vw;
         margin-left: .5vw;
     }
