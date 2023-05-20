@@ -36,7 +36,7 @@ body {
 }
 
 .heading {
-  font-size: 1vh;
+  font-size: 2vh;
   text-align: center;
   color: #e6e6e6;
 }
@@ -66,15 +66,14 @@ body {
 /* This is the navigation menu */
 
 .nav-ul li:first-child {
-  display: flex;
-  align-items: center;
-  margin-right: 7vw;
+  display: block;
   color: #e6e6e6;
 }
 
 .nav-ul li {
   display: none;
   font-size: 2.5vw;
+  margin-right: 6vw;
 }
 
 .responsive li {
@@ -222,7 +221,7 @@ max-height: none;
 footer {
   display: flex;
   flex-direction: column;
-  margin: 2vh 0 auto;
+  margin: 1vw 0 auto;
   background-color: #e6e6e6;
   font-family: "Castoro Titling", serif;
 }
@@ -237,15 +236,19 @@ footer {
 
 footer .logo {
   display: flex;
-  height: 15vh;
+  max-height: 70px;
 }
 
 .title-main {
   display: block;
 }
 
+.title {
+  font-size: 3vw;
+}
+
 .address {
-  font-size: 2.5vh;
+  font-size: 1.5vh;
   line-height: .5;
 }
 
@@ -261,9 +264,9 @@ footer .logo {
   display: flex;
   background-color: #297373;
   color: #e6e6e6;
-  padding: 1.5vh;
+  padding: 1.5vw;
   justify-content: center;
   text-align: center;
-  font-size: 1vh;
+  font-size: 1.5vw;
   max-width: 100%;
 }
