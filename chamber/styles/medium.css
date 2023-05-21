@@ -1,12 +1,12 @@
-@media only screen and (min-width: 764px){
+@media only screen and (min-width: 764px) {
 
-/* Header */
+  /* Header */
 
-.col2 {
+  .col2 {
     margin-right: 50px;
-}
+  }
 
-#col2 {
+  #col2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,19 +15,19 @@
     font-size: 10px;
     margin-right: 50px;
   }
-  
-.social {
-display: flex;
-flex-direction: column;
-}
 
-.row-1 {
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 
-#col1 {
+  #col1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,7 +42,7 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
+
   .heading {
     font-size: 13px;
     margin-right: 40px;
@@ -50,51 +50,50 @@ flex-direction: column;
     justify-content: center;
     color: #e6e6e6;
   }
-  
 
-/* Main */
 
-main {
+  /* Main */
+
+  main {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
   }
-  
+
   .inner-box-3,
   .column3 .placeholder-box-5 {
     display: none;
   }
-  
+
   .column1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     order: 3;
   }
-  
+
   .column2 {
-    order:1;
+    order: 1;
   }
-  
+
   .column3 {
     order: 2;
   }
-  
+
   #placeholder {
     flex: 1 0 100px;
     margin: 10px;
   }
-  
+
   .placeholder-box-4 {
     order: 1;
     border: 1px solid black;
     box-sizing: border-box;
     background-color: #e6e6e6;
     height: 200px;
-  
   }
- 
+
   .placeholder-box-1 {
     order: 2;
     border: 1px solid black;
@@ -103,37 +102,110 @@ main {
     height: 200px;
     flex-basis: 66.6%;
   }
-  
+
+  .event-text {
+    font-size: 2vw;
+  }
+
   .placeholder-box-2 {
     order: 3;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #e6e6e6;
+    background-color: #2871ac;
     height: 200px;
     flex-basis: 33.3%;
   }
 
+  .placeholder-box-2 img {
+    width: 70%;
+    height: 100%;
+  }
+
   .placeholder-box-3 {
-    display: block flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
     box-sizing: border-box;
     background-color: #e6e6e6;
     height: 200px;
     order: 1;
     box-shadow: 0 10px 20px #1d1b1b;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #297373;
+    font-family: "Cinzel Decorative family";
   }
-  
+
+  .placeholder-box-3 button {
+    width: 15vw;
+    height: 4vw;
+    font-size: 4vw;
+    border-radius: 10px;
+    box-shadow: 0 7px 20px #1d1b1b;
+    margin-top: 1vw;
+  }
+
+  .placeholder-box-3 p {
+    color: white;
+    font-size: 3vw;
+    padding: .5vw;
+  }
+
   .column2 .placeholder-box-5 {
-    display: block;
+    position: relative;
     order: 2;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #e6e6e6;
+    background-color: black;
     height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 10px 20px #1d1b1b;
   }
-  
+
+  .placeholder-box-5 .news1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .news1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .news1-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3vw;
+    font-family: "Cinzel Decorative family";
+    line-height: 2.75vw;
+  }
+
+  .news1-text h2 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 1vw;
+    padding: .5vw;
+  }
+
+  .news1-text p {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 1vw;
+    padding: .5vw;
+  }
+
   .placeholder-box-6 {
     order: 5;
     border: 1px solid black;
@@ -142,31 +214,65 @@ main {
     height: 200px;
     display: flex;
   }
-  
+
   #inner-box {
     margin: 10px;
     flex-basis: 50%;
   }
-  
-  .inner-box-1,
-  .inner-box-2 {
+
+  .inner-box-1 {
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #e6e6e6;
+    background-color: #ff8552;
     height: 175px;
   }
+  
+  .spot-1 {
+    line-height: 2vw;
+    gap: 1px;
+  }
+
+  .inner-box-1 h2 {
+    font-size: 3vw;
+  }
+
+  .inner-box-1 h3 {
+    font-size: 2.5vw;
+  }
+
+  .inner-box-1 p {
+    font-size: 2.25vw;
+  }
+
+.inner-box-2 {
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #297373;
+  height: 175px;
+}
+
+.spot-2 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  line-height: 1.15;
+}
+
+.inner-box-2 p {
+  font-family: "Cinzel Decorative family";
+  font-size: 2.25vw;
 }
 
 /* Footer */
 
 .contact {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    font-size: 2vh;
-    gap: 5vw;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 2vh;
+  gap: 5vw;
 }
-          
+
 .addTitle {
-    display: none;
-  }
+  display: none;
+}
+}

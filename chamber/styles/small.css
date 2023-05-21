@@ -15,6 +15,7 @@ body {
 
 .content {
   display: flex;
+  max-width: 1600px;
   flex-direction: column;
   background-color: #297373;
   font-family: "Castoro Titling", serif;
@@ -113,7 +114,6 @@ body {
 }
 
 
-
 /* Main */
 
 main {
@@ -121,6 +121,8 @@ main {
   flex-direction: column;
   margin-left: 2vw;
   margin-right: 2vw;
+  max-width: 1600px;
+  padding: 3vw;
 }
 
 .placeholder-box-3,
@@ -153,8 +155,8 @@ main {
   box-sizing: border-box;
   background-color: #e6e6e6;
   height: 200px;
-  overflow: hidden; /* Hide any overflow if the image exceeds the container */
-  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,59 +164,195 @@ main {
 }
 
 .hero img {
-max-width: none;
-max-height: none;
+  max-width: none;
+  max-height: none;
 }
 
 .placeholder-box-1 {
   order: 2;
+  position: relative;
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #e6e6e6;
   height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 1vh 2vw #4b4949;
+  font-family: "Castoro Titling", serif;
+}
+
+.event-center {
+  max-width: none;
+  max-height: none;
+}
+
+.event-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+.event-text h3 {
+  color: #297373;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 1vw;
+  padding: .5vw;
+}
+
+.event-text p {
+  color: #297373;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 1vw;
+  padding: .5vw;
+  font-weight: bold;
 }
 
 .placeholder-box-2 {
   order: 3;
+  position: relative;
   border: 1px solid black;
   box-sizing: border-box;
-  background-color: #e6e6e6;
+  background-color: #2871ac;
   height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1vh 2vw #4b4949;
+  font-family: "Castoro Titling", serif;
+}
+
+.placeholder-box-2 img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+
+.placeholder-box-5 {
+  position: relative;
+  order: 2;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: black;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 1vh 2vw #4b4949;
 }
 
-.column3 .placeholder-box-5 {
-  order: 4;
-  border: 1px solid black;
-  box-sizing: border-box;
-  background-color: #e6e6e6;
-  height: 200px;
-  box-shadow: 0 1vh 2vw #4b4949;
+.placeholder-box-5 .news2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.news2 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.news2-text {
+  position: absolute;
+  top: 47.5%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3.65vw;
+  font-family: "Cinzel Decorative family";
+}
+
+.news2-text h2 {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 1vw;
+  padding: .5vw;
+}
+
+.news2-text p {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 1vw;
+  padding: .5vw;
 }
 
 .placeholder-box-6 {
   order: 5;
   border: 1px solid black;
   box-sizing: border-box;
-  background-color: #e6e6e6;
   height: 440px;
   box-shadow: 0 1vh 2vw #4b4949;
+  background-color: #e6e6e6;
+  font-family: "Castoro Titling", serif;
 }
 
 #inner-box {
   margin: 3vh;
 }
 
-.inner-box-1,
+.inner-box-1 {
+  border: 1px solid black;
+  box-sizing: border-box;
+  color: black;
+  background-color: #ff8552;
+  height: 190px;
+  text-align: center;
+}
+
+.spot-1 {
+  line-height: .75;
+}
+
+.inner-box-1 h2 {
+  font-size: 5vw;
+  text-decoration: underline;
+}
+
+.inner-box-1 h3 {
+  font-size: 4vw;
+}
+
+.inner-box-1 p {
+  font-size: 3.5vw;
+}
+
 .inner-box-2 {
   border: 1px solid black;
   box-sizing: border-box;
-  background-color: #e6e6e6;
+  background-color: #297373;
   height: 190px;
+  text-align: center;
+  color: white;
 }
 
+.spot-2 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  line-height: 1.15;
+}
 
+.inner-box-2 h2 {
+  text-decoration: underline;
+}
+
+.inner-box-2 p {
+  font-family: "Cinzel Decorative family";
+  font-size: 3.5vw;
+}
 
 /* Footer */
 
