@@ -8,7 +8,14 @@ body {
   max-width: 1600px;
   background-color: white;
   margin: 0 auto;
-  margin-top: .25vh;
+}
+
+.banner {
+  background-color: #ff8552;
+  color: black;
+  padding: 2vw;
+  text-align: center;
+  font-size: 4vw;
 }
 
 /* Header */

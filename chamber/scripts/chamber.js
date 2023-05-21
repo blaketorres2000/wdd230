@@ -26,11 +26,25 @@ function getCurrentDate() {
   dateElement.textContent = formattedDate;
 }
 
-// Hamburger Menu // 
+// Hamburger Menu
 function toggleMenu() {
   document.getElementsByClassName("nav-ul")[0].classList.toggle("responsive");
 }
 
+// Memo Banner
+function topBanner() {
+  let curDate = new Date();
+  let dayOfWeek = curDate.getDay();
+  if (dayOfWeek === 6 || dayOfWeek === 2) {
+    let banner = document.createElement("div");
+    banner.classList.add("banner");
+    banner.innerText = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+    let body = document.body;
+    body.insertBefore(banner, body.firstChild);
+  }
+}  
+
 getCurrentDate();
 displayFooter();
 toggleMenu();
+topBanner();

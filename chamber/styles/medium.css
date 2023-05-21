@@ -1,5 +1,10 @@
 @media only screen and (min-width: 764px) {
 
+  .banner {
+    padding: 1vw;
+    font-size: 3vw;
+  }
+
   /* Header */
 
   .col2 {
