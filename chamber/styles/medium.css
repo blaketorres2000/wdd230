@@ -259,12 +259,12 @@
 .spot-2 {
   padding-left: 2vw;
   padding-right: 2vw;
-  line-height: 1.15;
+  line-height: 1;
 }
 
 .inner-box-2 p {
   font-family: "Cinzel Decorative family";
-  font-size: 2.25vw;
+  font-size: 2vw;
 }
 
 /* Footer */
