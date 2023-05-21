@@ -31,6 +31,7 @@
 
     .heading {
         font-size: 1.5vw;
+        max-height: fit-content;
         color: #e6e6e6;
     }
 
@@ -67,9 +68,10 @@
 
     .nav-ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        margin-right: 7vw;
     }
 
     .nav-ul li:first-child {
@@ -78,7 +80,7 @@
 
     .nav-ul li {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .nav-ul a {
@@ -86,7 +88,7 @@
         text-align: center;
         color: #e6e6e6;
         padding: 2vh;
-        font-size: 3.5vh;
+        font-size: 2.5vh;
     }
 
     .nav-ul a:hover {
@@ -150,8 +152,11 @@
     .placeholder-box-3 {
         width: 22.5vw;
         height: 22.5vw;
-        display: block;
+        display: flex;
         order: 3;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .column2 {
@@ -198,7 +203,11 @@
 
     #inner-box {
         margin: 0px;
-        height: 60vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .inner-box-1,
@@ -211,46 +220,73 @@
     }
 
     .spot-1 {
-        line-height: 2vw;
-        gap: 1px;
+        line-height: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
       }
     
       .inner-box-1 h2 {
-        font-size: 2.75vw;
+        font-size: 2vw;
+        text-decoration: none;
       }
     
       .inner-box-1 h3 {
-        font-size: 2.25vw;
+        font-size: 1.75vw;
+        line-height: .85;
+        margin-bottom: .25em;
       }
     
       .inner-box-1 p {
-        font-size: 2vw;
+        font-size: 1.5vw;
       }
 
       .spot-2 {
         line-height: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .inner-box-2 h2 {
+        font-size: 1.75vw;
+        margin-bottom: -.25em;
       }
       
       .inner-box-2 p {
-        font-size: 2vw;
+        font-size: 1.5vw;
+        margin-bottom: -.25em;
       }
 
       .inner-box-3 {
         background-color: #ff8552;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 
       .spot-3 {
-        line-height: 2vw;
+        line-height: 1;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: .5vw;
       }
 
       .spot-3 h2 {
-        font-size: 3vw;
+        font-size: 2vw;
+        margin-bottom: .05em;
       }
 
       .spot-3 p {
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-family: "Cinzel Decorative family";
       }
 

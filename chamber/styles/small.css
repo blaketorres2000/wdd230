@@ -39,12 +39,12 @@ body {
 .logo {
   display: flex;
   max-height: 10vh;
-  padding-top: 2vh;
   margin: 0 auto;
+  padding-top: .5vh;
 }
 
 .heading {
-  font-size: 2vh;
+  font-size: 1.5vh;
   text-align: center;
   color: #e6e6e6;
 }
@@ -222,7 +222,7 @@ main {
 
 .placeholder-box-2 {
   order: 3;
-  position: relative;
+  /* position: relative; */
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #2871ac;
@@ -237,11 +237,15 @@ main {
 }
 
 .placeholder-box-2 img {
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  /* position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 70%; */
 }
 
 .placeholder-box-5 {
@@ -279,7 +283,7 @@ main {
   left: 35%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 3.65vw;
+  font-size: 2.5vw;
   font-family: "Cinzel Decorative family";
 }
 
@@ -318,10 +322,13 @@ main {
   background-color: #ff8552;
   height: 190px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .spot-1 {
-  line-height: .75;
+  line-height: .5;
 }
 
 .inner-box-1 h2 {
@@ -334,7 +341,7 @@ main {
 }
 
 .inner-box-1 p {
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
 .inner-box-2 {
@@ -344,21 +351,25 @@ main {
   height: 190px;
   text-align: center;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .spot-2 {
-  padding-left: 2vw;
-  padding-right: 2vw;
-  line-height: 1.15;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  line-height: 1;
 }
 
 .inner-box-2 h2 {
   text-decoration: underline;
+  margin-top: 1vw;
 }
 
 .inner-box-2 p {
   font-family: "Cinzel Decorative family";
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
 /* Footer */
@@ -377,6 +388,8 @@ footer {
   margin: 0 auto;
   align-items: center;
   text-align: center;
+  line-height: .25;
+
 }
 
 footer .logo {
