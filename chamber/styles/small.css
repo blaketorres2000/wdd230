@@ -170,6 +170,24 @@ main {
   box-shadow: 0 1vh 2vw #4b4949;
 }
 
+.overlay1 {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 10vw;
+}  
+
+.overlay2 {
+  display: none;
+}
+
+.overlay3 {
+  display: none;
+}
+
 .hero img {
   max-width: none;
   max-height: none;
@@ -222,18 +240,53 @@ main {
 
 .placeholder-box-2 {
   order: 3;
-  /* position: relative; */
   border: 1px solid black;
   box-sizing: border-box;
-  background-color: #2871ac;
+  background-color: #297373;
   height: 200px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   box-shadow: 0 1vh 2vw #4b4949;
   font-family: "Castoro Titling", serif;
+  color: black;
+  font-weight: 1000;
+  line-height: 1px;
+}
+
+.placeholder-box-2 h1 {
+  margin-top: 1vw;
+  font-size: 3.5vw;
+  text-shadow: 1px 1px 4px #ff8652b2;
+}
+
+.line1 {
+  width: 30%;
+  height: 2px;
+  background-color: #ff8552;
+  margin-top: .5vw;
+  margin-bottom: .75vw;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: row;
+  gap: .25vw;
+}
+
+.placeholder-box-2 p {
+  font-size: 1.75vw;
+}
+
+.windS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5vw;
+  font-size: 1.75vw;
 }
 
 .placeholder-box-2 img {

@@ -99,6 +99,24 @@
     height: 200px;
   }
 
+  .overlay2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 10vw;
+  }  
+
+  .overlay1 {
+    display: none;
+  }
+
+  .overlay3 {
+    display: none;
+  }
+
   .placeholder-box-1 {
     order: 2;
     border: 1px solid black;
@@ -116,9 +134,24 @@
     order: 3;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #2871ac;
     height: 200px;
     flex-basis: 33.3%;
+  }
+
+  .placeholder-box-2 h1 {
+    font-size: 2.5vw;
+  }  
+
+  .placeholder-box-2 p {
+    font-size: 1.25vw;
+  }
+  
+  .windS {
+    font-size: 1.25vw;
+  }
+
+  .line1 {
+    width: 90%;
   }
 
   .placeholder-box-2 img {
