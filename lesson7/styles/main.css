@@ -1,6 +1,6 @@
 body {
     color: #297373;
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -12,7 +12,7 @@ h1 {
 }
 
 .images {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
