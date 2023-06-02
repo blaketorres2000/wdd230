@@ -156,7 +156,7 @@ main {
 }
 
 #discover-main h2 {
-  font-size: 3vw;
+  font-size: 4vw;
   color: #ff8552;
   background-color: #297373;
   max-width: fit-content;
@@ -168,7 +168,7 @@ main {
 }
 
 #discover-main p {
-  font-size: 2.25vw;
+  font-size: 2.85vw;
   color: #39393a;
   font-family: "Cinzel Decorative family";
   max-width: 800px;
@@ -195,7 +195,7 @@ main {
 .discover-img {
   width: 100%;
   max-width: 550px;
-  height: 55vh;
+  height: 45vh;
   overflow: hidden;
   position: absolute;
   object-fit: cover;

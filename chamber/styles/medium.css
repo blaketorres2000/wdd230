@@ -75,7 +75,11 @@
   }
 
   #discover-main p {
-    font-size: 1.85vw;
+    font-size: 1.55vw;
+  }
+
+  .discover-img {
+    height: 55vh;
   }
 
   .inner-box-3,
