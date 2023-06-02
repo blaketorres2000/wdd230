@@ -66,6 +66,22 @@
     margin-right: 20px;
   }
 
+  #discover-main h1 {
+    font-size: 6vw;
+  }
+
+  #discover-main h2 {
+    font-size: 5vh;
+  }
+
+  #discover-main p {
+    font-size: 1.85vw;
+  }
+
+  #discover-main img {
+    max-width: 600px;
+  }  
+
   .inner-box-3,
   .column3 .placeholder-box-5 {
     display: none;

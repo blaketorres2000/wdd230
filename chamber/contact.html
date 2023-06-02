@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Discover Page</title>
+    <meta name="Blake Torres"
+        content="Chamber of Commerce Discover Page for Blake Torres in WDD 230: Web Frontend Development at BYU - Idaho">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <div class="row-1">
+                <a id="logo" href="index.html">
+                    <img class="logo" src="images/FredTexas.WebP" alt="Fred Chamber of Commerce Logo">
+                </a>
+
+                <div class="heading">
+                    <h1>Fred, Texas</h1>
+                    <h1>Chamber of Commerce</h1>
+                </div>
+
+                <div class="cont">
+                    <div class="col" id="col1">
+                        <div class="social">
+                            <a href="https://facebook.com" target="_blank">
+                                <img src="images/facebook.WebP" alt="fb icon">
+                            </a>
+                            <a href="https://twitter.com" target="_blank">
+                                <img src="images/twitter.WebP" alt="twitter icon">
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <img src="images/instagram.WebP" alt="instagram icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col" id="col2">
+                        <nav>
+                            <ul class="nav-ul responsive" id="nav-ul">
+                                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                                <li><a href="discover.html">Discover</a></li>
+                                <li><a href="directory.html">Directory</a></li>
+                                <li><a href="join.html">Join</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row-2">
+                <p id="date"></p>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="main-part">
+            <a id="logo" href="index.html">
+                <img class="logo" src="images/FredTexas.WebP" alt="Fred Chamber of Commerce Logo">
+            </a>
+            <div class="title-main">
+                <div class="title">
+                    <h3>Fred</h3>
+                    <h3>Chamber of Commerce</h3>
+                </div>
+                <div class="address">
+                    <div class="addTitle">
+                        <p>Address:</p>
+                    </div>
+                    <div class="innerAdd">
+                        <p>20239 FM 92 S</p>
+                        <p>Fred, TX 77616</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-link">
+                <a href="https://goo.gl/maps/WVJnUCrxEWs1udha6" target="_blank">
+                    <div class="map">
+                        <img src="images/fred-map.png">
+                    </div>
+                </a>
+            </div>
+            <div class="contact">
+                <div class="email">
+                    <div class="addTitle">
+                        <p>Email:</p>
+                    </div>
+                    <p>info@fredcc.org</p>
+                </div>
+                <div class="phone">
+                    <div class="addTitle">
+                        <p>Phone:</p>
+                    </div>
+                    <p>(409)429-5133</p>
+                </div>
+            </div>
+        </div>
+        <p id="footer"></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+
+</html>
