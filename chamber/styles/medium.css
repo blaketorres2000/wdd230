@@ -78,10 +78,6 @@
     font-size: 1.85vw;
   }
 
-  #discover-main img {
-    max-width: 600px;
-  }  
-
   .inner-box-3,
   .column3 .placeholder-box-5 {
     display: none;

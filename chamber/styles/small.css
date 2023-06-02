@@ -195,7 +195,7 @@ main {
 .discover-img {
   width: 100%;
   max-width: 550px;
-  height: 400px;
+  height: 55vh;
   overflow: hidden;
   position: absolute;
   object-fit: cover;
@@ -205,7 +205,6 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: fit-content;
   object-fit: cover;
 }
 
