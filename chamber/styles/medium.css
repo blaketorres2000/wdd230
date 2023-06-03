@@ -82,6 +82,10 @@
     height: 55vh;
   }
 
+  .discover-img:hover {
+    filter: saturate(200%);
+  }
+
   .inner-box-3,
   .column3 .placeholder-box-5 {
     display: none;
