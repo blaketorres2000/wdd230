@@ -89,7 +89,7 @@
         text-align: center;
         color: #e6e6e6;
         padding: 2vh;
-        font-size: 2.5vh;
+        font-size: 2.15vh;
         margin-left: -6.5vw;
     }
 
@@ -119,6 +119,10 @@
         justify-content: space-evenly;
         gap: 1vw;
         margin-left: .5vw;
+    }
+
+    #discover-main p {
+        font-size: 1.55vw;
     }
     
     .column1 {
