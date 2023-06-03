@@ -81,6 +81,7 @@
     .nav-ul li {
         display: flex;
         flex-direction: column;
+        max-width: fit-content;
     }
 
     .nav-ul a {
