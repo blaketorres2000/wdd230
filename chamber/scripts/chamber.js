@@ -44,7 +44,29 @@ function topBanner() {
   }
 }  
 
+// Form Validation
+function setFormLoadTime() {
+    var currentDate = new Date();
+    document.querySelector("#formLoadTime").value = currentDate.toISOString();
+  }
+window.onload = setFormLoadTime;
+
+//Info Link Expand/Collapse
+function setupInfoLinks() {
+  const infoLinks = document.querySelectorAll('.info-link');
+
+  infoLinks.forEach((link) => {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      const infoContent = this.nextElementSibling;
+      infoContent.classList.toggle('expanded');
+    });
+  });
+}
+
+
 getCurrentDate();
 displayFooter();
 toggleMenu();
 topBanner();
+setupInfoLinks();

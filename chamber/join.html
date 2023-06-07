@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of Commerce Discover Page</title>
+    <title>Chamber of Commerce Join Us Page</title>
     <meta name="Blake Torres"
-        content="Chamber of Commerce Discover Page for Blake Torres in WDD 230: Web Frontend Development at BYU - Idaho">
+        content="Chamber of Commerce Join Us Page for Blake Torres in WDD 230: Web Frontend Development at BYU - Idaho">
     <link rel="stylesheet" href="styles/normalize.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Cinzel+Decorative&family=Noto+Sans+Georgian:wght@300&display=swap"
@@ -50,7 +50,7 @@
                                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                                 <li><a href="discover.html">Discover</a></li>
                                 <li><a href="directory.html">Directory</a></li>
-                                <li><a href="join.html">Join</a></li>
+                                <li><a href="join.html" class="active">Join</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
@@ -62,6 +62,177 @@
             </div>
         </div>
     </header>
+    <main class="joinUs">
+        <h1>Join Us</h1>
+        <div class="contentJoin">
+            <div class="joinColumn1">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <div class="appInfo">
+                            <label class="top">First Name *<input type="text" name="fname" required></label>
+                            <label class="top">Last Name *<input type="text" name="lname" required></label>
+                            <label class="top">Business Position Title<input type="text" name="position"
+                                    pattern="[a-zA-Z\s\-]{7,}"
+                                    title="Please enter a valid business position title (minimum 7 characters, only letter, hyphens, and spaces are allowed)"></label>
+                            <label class="top">Email *<input type="email" name="email" placeholder="someone@gmail.com"
+                                    required></label>
+                            <label class="top">Cell Phone Number *<input type="tel" name="phone" placeholder="123-456-1234"
+                                    required></label>
+                            <label class="top">Business Name/Title *<input type="text" name="businessName" required></label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset id="memLevel">
+                        <legend>Membership Level</legend>
+                        <div class="level">
+                            <label class="memLevel">
+                                <span class="levelSelect">
+                                    <input type="radio" name="audience" value="beginner">
+                                    <span class="memLabel">NP Membership (non-profit organizations)</span>
+                                    <span id="info-link">
+                                        <a href="#" class="info-link">Details</a>
+                                        <div class="info-content">
+                                            <p>Non-profit organizations are welcome to join the Fred Chamber of Commerce at no cost. Benefits include:</p>
+                                            <ul class="benefitList">
+                                                <li>Access to chamber events and networking opportunities</li>
+                                                <li>Listing in the chamber's online directory</li>
+                                                <li>Participation in chamber committees and working groups</li>
+                                                <li>Access to educational resources and workshops</li>
+                                            </ul>                                        
+                                        </div>
+                                    </span>
+                                </span>
+                            </label>
+                            <label class="memLevel">
+                                <span class="levelSelect">
+                                    <input type="radio" name="audience" value="beginner">
+                                    <span class="memLabel">Bronze Membership</span>
+                                    <span id="info-link">
+                                        <a href="#" class="info-link">Details</a>
+                                        <div class="info-content">
+                                            <p>For $50 a year, Bronze Members receive:</p>
+                                            <ul>
+                                                <li>All benefits of NP Membership</li>
+                                                <li>Discounted rates for chamber events and programs</li>
+                                                <li>Opportunity to host or sponsor chamber events</li>
+                                                <li>Access to targeted marketing and advertising opportunities</li>
+                                                <li>Business referrals and leads from the chamber</li>
+                                                <li>Access to chamber's business advocacy and lobbying efforts</li>
+                                            </ul>
+                                        </div>
+                                    </span>
+                                </span>
+                            </label>
+                            <label class="memLevel">
+                                <span class="levelSelect">
+                                    <input type="radio" name="audience" value="intermediate">
+                                    <span class="memLabel">Silver Membership </span>
+                                    <span id="info-link">
+                                        <a href="#" class="info-link">Details</a>
+                                        <div class="info-content">
+                                            <p>For $100 a year, Silver Members receive:</p>
+                                            <ul>
+                                                <li>All benefits of Bronze Membership</li>
+                                                <li>Enhanced business listing in the chamber's online directory</li>
+                                                <li>Exclusive access to chamber's business resources and reports</li>
+                                                <li>Invitations to VIP networking events and receptions</li>
+                                                <li>Opportunity to present at chamber seminars and workshops</li>
+                                                <li>Representation in the chamber's marketing and promotional materials</li>
+                                                <li>Recognition as a Silver Member in chamber publications</li>
+                                            </ul>
+                                        </div>
+                                    </span>
+                                </span>
+                            </label>
+                            <label class="memLevel">
+                                <span class="levelSelect">
+                                    <input type="radio" name="audience" value="advanced">
+                                    <span class="memLabel">Gold Membership</span>
+                                    <span id="info-link">
+                                        <a href="#" class="info-link">Details</a>
+                                        <div class="info-content">
+                                            <p>For $200 a year, Gold Members receive:</p>
+                                            <ul>
+                                                <li>All benefits of Silver Membership</li>
+                                                <li>Priority listing and featured promotion in the chamber's online directory</li>
+                                                <li>Exclusive sponsorship opportunities for signature chamber events</li>
+                                                <li>Leadership opportunities within the chamber's board of directors</li>
+                                                <li>Invitations to private receptions with community leaders and dignitaries</li>
+                                                <li>Access to specialized business training and executive education programs</li>
+                                                <li>Recognition as a Gold Member in chamber publications and press releases</li>
+                                                <li>Opportunity to showcase products or services at chamber trade shows</li>
+                                            </ul>
+                                        </div>
+                                    </span>
+                                </span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset id="businessInfo">
+                        <legend>Business Information</legend>
+                        <label class="textArea"><textarea id="businessDescription" name="businessDescription"
+                                placeholder="(Product or service provided, location, target audience, etc.)"></textarea></label>
+                        <label class="textArea"><input type="hidden" id="formLoadTime" name="formLoadTime" value=""></label>
+                    </fieldset>
+                    <label class="textArea"><input type="submit" value="Register" class="submitBtn"></label>
+                </form>
+            </div>
+            <div class="joinColumn2">
+                <h2>Membership Levels</h2>
+                <div class="levelsDisplay" id="npMem">
+                    <h3>NP Membership</h3>
+                    <p>Non-profit organizations are welcome to join the Fred Chamber of Commerce at no cost. Benefits include:</p>
+                    <ul class="benefitList">
+                        <li>Access to chamber events and networking opportunities</li>
+                        <li>Listing in the chamber's online directory</li>
+                        <li>Participation in chamber committees and working groups</li>
+                        <li>Access to educational resources and workshops</li>
+                    </ul>
+                </div>
+                <div class="levelsDisplay" id="bronzeMem">
+                    <h3>Bronze Membership</h3>
+                    <p>For $50 a year, Bronze Members receive:</p>
+                    <ul class="benefitList">
+                        <li>All benefits of NP Membership</li>
+                        <li>Discounted rates for chamber events and programs</li>
+                        <li>Opportunity to host or sponsor chamber events</li>
+                        <li>Access to targeted marketing and advertising opportunities</li>
+                        <li>Business referrals and leads from the chamber</li>
+                        <li>Access to chamber's business advocacy and lobbying efforts</li>
+                    </ul>
+                </div>
+                <div class="levelsDisplay" id="silverMem">
+                    <h3>Silver Membership</h3>
+                    <p>For $100 a year, Silver Members receive:</p>
+                    <ul class="benefitList">
+                        <li>All benefits of Bronze Membership</li>
+                        <li>Enhanced business listing in the chamber's online directory</li>
+                        <li>Exclusive access to chamber's business resources and reports</li>
+                        <li>Invitations to VIP networking events and receptions</li>
+                        <li>Opportunity to present at chamber seminars and workshops</li>
+                        <li>Representation in the chamber's marketing and promotional materials</li>
+                        <li>Recognition as a Silver Member in chamber publications</li>
+                    </ul>
+                </div>
+                <div class="levelsDisplay" id="goldMem">
+                    <h3>Gold Membership</h3>
+                    <p>For $200 a year, Gold Members receive:</p>
+                    <ul class="benefitList">
+                        <li>All benefits of Silver Membership</li>
+                        <li>Priority listing and featured promotion in the chamber's online directory</li>
+                        <li>Exclusive sponsorship opportunities for signature chamber events</li>
+                        <li>Leadership opportunities within the chamber's board of directors</li>
+                        <li>Invitations to private receptions with community leaders and dignitaries</li>
+                        <li>Access to specialized business training and executive education programs</li>
+                        <li>Recognition as a Gold Member in chamber publications and press releases</li>
+                        <li>Opportunity to showcase products or services at chamber trade shows</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="main-part">
             <a id="logo" href="index.html">

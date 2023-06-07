@@ -66,6 +66,10 @@
     margin-right: 20px;
   }
 
+  #businessDescription {
+    width: 50vw;
+  }
+
   #discover-main h1 {
     font-size: 6vw;
   }

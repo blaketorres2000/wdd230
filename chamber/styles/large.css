@@ -3,7 +3,7 @@
     .banner {
         padding: .5vw;
         font-size: 2vw;
-    }    
+    }
 
     /* Header */
 
@@ -120,12 +120,69 @@
         justify-content: space-evenly;
         gap: 1vw;
         margin-left: .5vw;
+        width: 1000px;
+    }
+
+    .joinUs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentJoin {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        max-width: 1000px;
+        width: 1000px;
+        margin-top: 3rem;
+    }
+
+    .joinColumn1 {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .levelsDisplay {
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        font-size: 1rem;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 1px #474646;
+        border-radius: 10px;
+        background-color: #2973731e;
+    }
+
+    .benefitList {
+        text-align: left;
+    }
+
+    .benefitList li {
+        margin-bottom: .5vh;
+    }
+
+    .info-link {
+        display: none;
+    }
+
+    .joinColumn2 {
+        display: block;
+        flex: 1;
+        max-width: 500px;
+        margin-top: -5vh;
+    }
+
+    .joinColumn2 h2 {
+        font-size: 1.5rem;
+        color: #297373;
     }
 
     #discover-main p {
         font-size: 1.55vw;
     }
-    
+
     .column1 {
         display: flex;
         flex-direction: column;
@@ -156,7 +213,7 @@
 
     .placeholder-box-2 img {
         height: 100%;
-    }    
+    }
 
     .placeholder-box-3 {
         width: 22.5vw;
@@ -189,7 +246,7 @@
         transform: translate(-50%, -50%);
         color: black;
         font-size: 10vw;
-    }  
+    }
 
     .overlay1 {
         display: none;
@@ -253,18 +310,18 @@
         align-items: center;
         gap: 0;
     }
-    
+
     .inner-box-1 h2 {
         font-size: 2vw;
         text-decoration: none;
     }
-    
+
     .inner-box-1 h3 {
         font-size: 1.75vw;
         line-height: .85;
         margin-bottom: .25em;
     }
-    
+
     .inner-box-1 p {
         font-size: 1.5vw;
     }
@@ -281,7 +338,7 @@
         font-size: 1.75vw;
         margin-bottom: -.25em;
     }
-    
+
     .inner-box-2 p {
         font-size: 1.5vw;
         margin-bottom: -.25em;

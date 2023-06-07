@@ -11,10 +11,10 @@ body {
 header {
     width: 96%;
     display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: space-around;
-	padding: 10px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
     padding: 1em;
     text-align: center;
     background-color: #297373;
@@ -25,7 +25,7 @@ header {
 nav {
     display: flex;
     flex-flow: column;
-	align-items: center;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -141,7 +141,7 @@ p {
     width: auto;
     display: flex;
     flex-flow: column;
-	align-items: center;
+    align-items: center;
 }
 
 .colors th {
@@ -185,9 +185,11 @@ p.colored {
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  td, th {
+}
+
+td,
+th {
     padding: 8px;
     border: 1px solid #ddd;
     text-align: left;
-  }
+}

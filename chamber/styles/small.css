@@ -74,6 +74,10 @@ body {
 
 /* This is the navigation menu */
 
+.nav-ul li a.active {
+  color: #ff8552;
+}
+
 .nav-ul li:first-child {
   display: block;
   color: #e6e6e6;
@@ -131,6 +135,175 @@ main {
   margin-right: 2vw;
   max-width: 1600px;
   padding: 3vw;
+}
+
+.joinUs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 3vw;
+}
+
+.joinUs h1 {
+  font-size: 8vh;
+  color: #297373;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 0px 1px #ff8552;
+}
+
+form fieldset {
+  border: 1px solid #297373;
+  padding: .5rem 2%;
+  margin: 2rem 0;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+
+form legend {
+  color: #297373;
+  margin: 0 auto;
+  padding: 0 .5rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+form label.top {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding-bottom: 2rem;
+  color: #ff8552;
+  font-size: 1rem;
+  text-shadow: .5px 0px 0px #297373;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: .25vh;
+  width: 70vw;
+  padding: .75rem;
+  border: 1px solid #474646;
+  color: #297373;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  max-width: 20rem;
+  background-color: #e6e6e6;
+  box-shadow: 1px 1px 1px #474646;
+}
+
+.appInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+#memLevel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.memLevel {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2vh;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.memLabel {
+  position: relative;
+  padding-left: .5rem;
+}
+
+.levelSelect input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+.levelSelect:hover {
+  cursor: pointer;
+}
+
+.info-content {
+  display: none;
+  margin-top: 8px;
+  background-color: #2973731e;
+  padding: 10px;  
+  border-radius: 10px;
+}
+
+.info-content.expanded {
+  display: block;
+  text-align: left;
+}
+
+.info-content p {
+  margin: 10px;
+}
+
+#memLevel .info-content ul  {
+  list-style: disc;
+}
+
+#memLevel .info-content ul li  {
+  margin-bottom: 8px;
+}
+
+.info-link {
+  color: #297373;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.info-link:hover {
+  cursor: pointer;
+  color: #ff8552;
+}
+
+#businessInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#businessDescription {
+  height: 20vh;
+  width: 70vw;
+  max-width: 400px;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  font-size: 1rem;
+  padding: 10px;
+  box-shadow: 1px 1px 1px #474646;
+  border-radius: 10px;
+  background-color: #e6e6e6;
+}
+
+.submitBtn {
+  color: #297373;
+  padding: .5rem;
+  font-size: 1.25rem;
+  margin-bottom: 60px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  color: #ff8552;
+  background-color: #297373;
+}
+
+.joinColumn2 {
+  display: none;
 }
 
 #discover-main {
