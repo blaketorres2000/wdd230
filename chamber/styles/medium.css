@@ -66,6 +66,12 @@
     margin-right: 20px;
   }
 
+
+
+  .cards {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+
   #businessDescription {
     width: 50vw;
   }

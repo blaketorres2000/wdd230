@@ -11,6 +11,15 @@ body {
   text-align: center;
 }
 
+.directory-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .banner {
   background-color: #ff8552;
   color: black;
@@ -27,6 +36,10 @@ body {
   flex-direction: column;
   background-color: #297373;
   font-family: "Castoro Titling", serif;
+}
+
+header {
+  width: 100%;
 }
 
 /* Main Header Row */
@@ -136,6 +149,75 @@ main {
   max-width: 1600px;
   padding: 3vw;
 }
+
+/* directory page */
+
+main .directory-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  padding: 3vw;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
+  grid-gap: 3px;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #cccee747;
+  border: #787887 1px solid;
+  box-shadow: #0000008e 0 0 10px;
+  max-width: 1200px;
+}
+
+
+
+.business-card {
+  color: #ff8552;
+  background-color: #297373;
+  border: #787887 1px solid;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+  width: 250px;
+}
+
+#business-image {
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  box-shadow: #000000 0 0 20px;
+  margin-bottom: 10px;
+}
+
+.business-contact,
+.business-address,
+.business-phone,
+.business-established,
+.business-website {
+  color: #e6e6e6;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 1em;
+}
+
+#business-name {
+  font-size: 1.25em;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: Arial Rounded MT Bold;
+  color: #ff8552;
+}
+
+/* Join Us Page */
 
 .joinUs {
   display: flex;
@@ -306,6 +388,8 @@ form label.top input, form label.top select {
   display: none;
 }
 
+/* Discover Page */
+
 #discover-main {
   margin: 0 auto;
   display: flex;
@@ -386,6 +470,8 @@ form label.top input, form label.top select {
   height: 100%;
   object-fit: cover;
 }
+
+/* Home Page and general CSS */
 
 .placeholder-box-3,
 .inner-box-3,
@@ -549,11 +635,6 @@ form label.top input, form label.top select {
   align-items: center;
   justify-content: center;
   height: 200px;
-  /* position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70%; */
 }
 
 .placeholder-box-5 {
