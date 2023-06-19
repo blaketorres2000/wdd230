@@ -252,9 +252,9 @@
         font-size: 10vw;
     }
 
-    .overlay1 {
+    /* .overlay1 {
         display: none;
-    }
+    } */
 
     .overlay2 {
         display: none;
@@ -463,7 +463,7 @@
         display: flex;
         justify-content: center;
         background-color: #297373;
-        color: #e6e6e6;
+        color: white;
         padding: .5vw;
         margin: .5vw;
         font-size: 2vw;

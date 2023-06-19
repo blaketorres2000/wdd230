@@ -517,8 +517,10 @@ form label.top input, form label.top select {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
-  font-size: 10vw;
+  color: #297373;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 1vw;
 }  
 
 .overlay2 {
@@ -810,7 +812,7 @@ footer .logo {
 #footer {
   display: flex;
   background-color: #297373;
-  color: #e6e6e6;
+  color: white;
   padding: 1.5vw;
   justify-content: center;
   text-align: center;
