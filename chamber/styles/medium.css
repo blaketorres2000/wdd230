@@ -205,7 +205,9 @@
     font-family: "Cinzel Decorative family";
   }
 
-  .placeholder-box-3 button {
+  .placeholder-box-3 .button {
+    background-color: #e6e6e6;
+    color: #297373;
     width: 15vw;
     height: 4vw;
     font-size: 3vw;
@@ -213,6 +215,12 @@
     box-shadow: 0 7px 20px #1d1b1b;
     margin-top: 1vw;
   }
+
+  .placeholder-box-3 .button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+
 
   .placeholder-box-3 p {
     color: white;
