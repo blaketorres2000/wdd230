@@ -5,7 +5,7 @@ const city = "Fairbanks";
 const units = "imperial";
 const apiKey = "3be9d2580b625a98fc4021b1163f7555";
 
-const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&APPID=${apiKey}`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${units}&APPID=${apiKey}`;
 
 async function apiFetch() {
   try {
