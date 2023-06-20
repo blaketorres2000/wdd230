@@ -215,9 +215,22 @@
         width: 90%;
     }
 
-    .placeholder-box-2 img {
-        height: 100%;
+    .placeholder-box-2 p {
+        font-size: 1vw;
     }
+
+    .placeholder-box-2 h1 {
+        font-size: 1.25vw;
+    }
+
+    figcaption {
+        font-size: 1vw;
+    }
+
+    .windS {
+        font-size: 1.25vw;
+    }
+
 
     .placeholder-box-3 {
         width: 22.5vw;

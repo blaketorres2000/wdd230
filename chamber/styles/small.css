@@ -262,7 +262,8 @@ form label.top {
   text-shadow: .5px 0px 0px #297373;
 }
 
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
   -webkit-appearance: none;
   display: block;
   margin: 0 auto;
@@ -318,7 +319,7 @@ form label.top input, form label.top select {
   display: none;
   margin-top: 8px;
   background-color: #2973731e;
-  padding: 10px;  
+  padding: 10px;
   border-radius: 10px;
 }
 
@@ -331,11 +332,11 @@ form label.top input, form label.top select {
   margin: 10px;
 }
 
-#memLevel .info-content ul  {
+#memLevel .info-content ul {
   list-style: disc;
 }
 
-#memLevel .info-content ul li  {
+#memLevel .info-content ul li {
   margin-bottom: 8px;
 }
 
@@ -399,7 +400,7 @@ form label.top input, form label.top select {
 }
 
 #discover-main h1 {
-  font-size:10vw;
+  font-size: 10vw;
   color: #297373;
   text-shadow: 2px 2px #ff8552;
   text-decoration: underline;
@@ -417,7 +418,7 @@ form label.top input, form label.top select {
   color: #ff8552;
   background-color: #297373;
   max-width: fit-content;
-  margin: 0  auto;
+  margin: 0 auto;
   margin-bottom: 20px;
   border: 1px solid black;
   border-radius: 10px;
@@ -447,7 +448,7 @@ form label.top input, form label.top select {
 
 .discover-boxes {
   padding: 20px;
-} 
+}
 
 .discover-img {
   width: 100%;
@@ -502,7 +503,7 @@ form label.top input, form label.top select {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #e6e6e6;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
@@ -521,7 +522,7 @@ form label.top input, form label.top select {
   font-size: 2rem;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 1vw;
-}  
+}
 
 .overlay2 {
   display: none;
@@ -542,7 +543,7 @@ form label.top input, form label.top select {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #e6e6e6;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
@@ -586,7 +587,7 @@ form label.top input, form label.top select {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #297373;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
@@ -602,7 +603,7 @@ form label.top input, form label.top select {
 
 .placeholder-box-2 h1 {
   margin-top: 1vw;
-  font-size: 3.75vw;
+  font-size: 3.5vh;
   text-shadow: 1px 1px 4px #ff8652b2;
 }
 
@@ -614,14 +615,48 @@ form label.top input, form label.top select {
   margin-bottom: .75vw;
 }
 
+.temp-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5vw;
+  margin-top: -2vh;
+}
+
+figcaption {
+  font-size: 3vh;
+  font-weight: bold;
+  color: black;
+}
+
+figure img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .5vw;
+}
+
 .temperature {
   display: flex;
   flex-direction: row;
-  gap: .25vw;
+  margin-top: -4vh;
+}
+
+.temp-icon .temperature p {
+  font-size: 3vh;
+  font-weight: bold;
+  color: black;
 }
 
 .placeholder-box-2 p {
-  font-size: 1.75vw;
+  font-size: 2vh;
 }
 
 .windS {
@@ -629,14 +664,14 @@ form label.top input, form label.top select {
   flex-direction: row;
   align-items: center;
   gap: .5vw;
-  font-size: 1.75vw;
+  font-size: 1vw;
 }
 
 .placeholder-box-2 img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 50px;
 }
 
 .placeholder-box-5 {
@@ -645,7 +680,7 @@ form label.top input, form label.top select {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: black;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
