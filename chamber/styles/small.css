@@ -674,6 +674,11 @@ figure {
   height: 50px;
 }
 
+p1 {
+  font-size: .75vh;
+  color: black;
+}
+
 .placeholder-box-5 {
   position: relative;
   order: 2;
