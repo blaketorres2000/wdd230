@@ -26,6 +26,7 @@ body {
   padding: 2vw;
   text-align: center;
   font-size: 4vw;
+  width: 100%;
 }
 
 /* Header */
@@ -88,7 +89,9 @@ header {
 /* This is the navigation menu */
 
 .nav-ul li a.active {
-  color: #ff8552;
+  color: white;
+  font-style: italic;
+  text-decoration: wavy underline;
 }
 
 .nav-ul li:first-child {
@@ -228,11 +231,11 @@ main .directory-main {
 }
 
 .joinUs h1 {
-  font-size: 8vh;
+  font-size: 5vw;
   color: #297373;
   text-align: center;
   text-decoration: underline;
-  text-shadow: 2px 0px 1px #ff8552;
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.469);
 }
 
 form fieldset {
@@ -375,6 +378,7 @@ form label.top select {
   padding: .5rem;
   font-size: 1.25rem;
   margin-bottom: 60px;
+  border-radius: 5px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
 }
 
@@ -399,17 +403,11 @@ form label.top select {
 }
 
 #discover-main h1 {
-  font-size: 10vw;
+  font-size: 5vw;
   color: #297373;
-  text-shadow: 2px 2px #ff8552;
+  text-align: center;
   text-decoration: underline;
-  border: 1px solid black;
-  border-radius: 10px;
-  max-width: fit-content;
-  margin: 0 auto;
-  padding: 10px;
-  margin-bottom: 80px;
-  background-color: #e6e6e6;
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.469);
 }
 
 #discover-main h2 {
@@ -603,7 +601,7 @@ form label.top select {
 #placeholder-box-2 h1 {
   margin-top: 1vw;
   font-size: 3.5vh;
-  text-shadow: 1px 1px 4px #ff8652b2;
+  color: white;
 }
 
 .line1 {
@@ -626,7 +624,7 @@ form label.top select {
 figcaption {
   font-size: 3vw;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 figure img {
@@ -644,6 +642,7 @@ figure {
 
 #placeholder-box-2 .temperature p {
   font-size: 3vw;
+  color: white;
 }
 
 .temperature {
@@ -655,7 +654,7 @@ figure {
 .temp-icon .temperature p {
   font-size: 3vw;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 #placeholder-box-2 p {
@@ -668,6 +667,11 @@ figure {
   align-items: center;
   gap: .5vw;
   font-size: 1vw;
+  color: white;
+}
+
+#wind-chill {
+  color: white;
 }
 
 #placeholder-box-2 img {
@@ -678,8 +682,8 @@ figure {
 }
 
 #placeholder-box-2 #weather-provider {
-  font-size: .75vh;
-  color: black;
+  font-size: 1.5vw;
+  color: white;
 }
 
 #placeholder-box-5b {
@@ -803,6 +807,88 @@ figure {
 #inner-box-2 p {
   font-family: "Cinzel Decorative family";
   font-size: 3vw;
+}
+
+.contactUsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactUsMain h2 {
+  font-size: 5vw;
+  color: #297373;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 0px 1px rgba(0, 0, 0, 0.469);
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  max-width: 700px;
+  padding: 2vw;
+  border: 1px solid #297373;
+  border-radius: 15px;
+  background-color: #e6e6e6;
+  height: 50vh;
+}
+
+.contactUs ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactUs ul li {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactUs ul li label {
+  margin-right: 10px;
+}
+
+.contactUs ul li input {
+  width: 50vw;
+  height: 3vw;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.contactUs ul li textarea {
+  margin-left: 10px;
+  width: 50vw;
+  max-width: 500px;
+  height: 20vw;
+  border-radius: 5px;
+}
+
+.contactUs ul li button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #297373;
+  padding: .5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.633);
+}
+
+.contactUs ul li button:hover {
+  cursor: pointer;
+  color: #ff8552;
+  font-weight: bold;
+  background-color: #297373;
 }
 
 /* Footer */

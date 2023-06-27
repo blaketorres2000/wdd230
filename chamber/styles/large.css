@@ -3,6 +3,7 @@
     .banner {
         padding: .5vw;
         font-size: 2vw;
+        width: 100%;
     }
 
     /* Header */
@@ -262,6 +263,10 @@
         font-size: 1.25vw;
     }
 
+    #placeholder-box-2 #weather-provider {
+        font-size: .85vw;
+    }
+
 
     #placeholder-box-3 {
         order: 3;
@@ -430,6 +435,11 @@
     .column3 #placeholder-box-5b {
         display: none;
     }
+
+    .contactUsMain h2 {
+        font-size: 3vw;
+    }
+
 
     /* Footer */
 

@@ -3,6 +3,7 @@
   .banner {
     padding: 1vw;
     font-size: 3vw;
+    width: 100%;
   }
 
   /* Header */
@@ -77,7 +78,7 @@
   }
 
   #discover-main h1 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   #discover-main h2 {
@@ -203,6 +204,10 @@
 
   #placeholder-box-2 #wind-chill {
     font-size: 1.5vw;
+  }
+
+  #placeholder-box-2 #weather-provider {
+    font-size: .95vw;
   }
 
   .line1 {
@@ -363,6 +368,18 @@
   #inner-box-2 p {
     font-family: "Cinzel Decorative family";
     font-size: 1.75vw;
+  }
+
+  .contactUs {
+    height: 70vh;
+  }
+
+  .contactUsMain h2 {
+    font-size: 4vw;
+  }  
+
+  .contactUs ul li button {
+    font-size: 1.2rem;
   }
 
   /* Footer */
