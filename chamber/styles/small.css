@@ -586,7 +586,7 @@ form label.top select {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #297373;
-  height: 250px;
+  height: 300px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
@@ -624,7 +624,7 @@ form label.top select {
 }
 
 figcaption {
-  font-size: 3vh;
+  font-size: 3vw;
   font-weight: bold;
   color: black;
 }
@@ -639,7 +639,7 @@ figure {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: .5vw;
+  gap: 2vw;
 }
 
 #placeholder-box-2 .temperature p {
@@ -649,17 +649,17 @@ figure {
 .temperature {
   display: flex;
   flex-direction: row;
-  margin-top: -4vh;
+  margin-top: -3vh;
 }
 
 .temp-icon .temperature p {
-  font-size: 3vh;
+  font-size: 3vw;
   font-weight: bold;
   color: black;
 }
 
 #placeholder-box-2 p {
-  font-size: 2vh;
+  font-size: 2.5vw;
 }
 
 .windS {

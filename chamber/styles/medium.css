@@ -165,12 +165,12 @@
     order: 3;
     border: 1px solid black;
     box-sizing: border-box;
-    height: 250px;
+    height: 300px;
     flex-basis: 33.3%;
   }
 
   #placeholder-box-2 h1 {
-    font-size: 3vh;
+    font-size: 3vw;
   }
 
   #placeholder-box-2 p {
@@ -180,20 +180,29 @@
   figure {
     display: flex;
     flex-direction: row;
+    margin-top: 4vw;
   }
 
   figcaption {
     margin-top: -4vh;
     margin-bottom: -2vh;
-    font-size: 1.75vw;
+    font-size: 2vw;
+  }
+
+  .temp-icon {
+    font-size: 3vw;
   }
   
   #placeholder-box-2 .temperature p {
-    font-size: 1.75vw;
+    font-size: 2vw;
   }
 
-  .windS {
-    font-size: 1.25vw;
+  .windS #wind-speed {
+    font-size: 1.5vw;
+  }
+
+  #placeholder-box-2 #wind-chill {
+    font-size: 1.5vw;
   }
 
   .line1 {
