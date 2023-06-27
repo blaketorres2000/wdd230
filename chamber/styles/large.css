@@ -69,7 +69,6 @@
     .nav-ul {
         display: flex;
         flex-direction: row;
-        flex-wrap: no-wrap;
         justify-content: space-evenly;
         margin-right: 1vw;
     }
@@ -120,7 +119,14 @@
         justify-content: space-between;
         gap: 1vw;
         margin-left: .5vw;
-        width: 1000px;
+        max-width: 1300px;
+    }
+
+    .thankYou {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .cards {
@@ -190,41 +196,54 @@
     .column1 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 1vw;
         order: 1;
+        width: 22.5vw;
+        max-width: 350px;
+        margin-right: 2vw;
+        margin-left: -1vw;
     }
 
-    .placeholder-box-1 {
-        width: 22.5vw;
-        height: 22.5vw;
-        display: flex;
+    #placeholder-box-1 {
         order: 1;
+        width: 22.5vw;
+        max-width: 350px;
+        flex-basis: 31%;
     }
 
 
-    .placeholder-box-2 {
+    #placeholder-box-2 {
+        order: 2;
         width: 22.5vw;
-        height: 22.5vw;
+        max-width: 350px;
         border: 1px solid black;
         box-sizing: border-box;
         display: flex;
-        order: 2;
+        flex-basis: 31%;
     }
 
     .line1 {
         width: 90%;
     }
 
-    .placeholder-box-2 p {
-        font-size: 1vw;
-    }
-
-    .placeholder-box-2 h1 {
+    #placeholder-box-2 p {
         font-size: 1.25vw;
     }
 
+    #placeholder-box-2 h1 {
+        font-size: 1.75vw;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vh;
+    }
+
     figcaption {
-        font-size: 1vw;
+        font-size: 1.25vw;
     }
 
     .windS {
@@ -232,14 +251,15 @@
     }
 
 
-    .placeholder-box-3 {
-        width: 22.5vw;
-        height: 22.5vw;
-        display: flex;
+    #placeholder-box-3 {
         order: 3;
+        width: 22.5vw;
+        max-width: 350px;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-basis: 31%;
     }
 
     .column2 {
@@ -247,11 +267,13 @@
         flex-direction: column;
         gap: 1vw;
         width: 45vw;
+        max-width: 750px;
         order: 2;
     }
 
-    .placeholder-box-4 {
+    #placeholder-box-4 {
         width: 45vw;
+        max-width: 750px;
         height: 45vw;
     }
 
@@ -273,8 +295,9 @@
         display: none;
     }
 
-    .column2 .placeholder-box-5 {
+    .column2 #placeholder-box-5 {
         width: 45vw;
+        max-width: 750px;
         height: 45vw;
         display: block;
         order: 2;
@@ -285,38 +308,39 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 70vw;
+        height: 100vw;
+        min-height: 95vw;
         width: 22.5vw;
+        max-width: 350px;
         border: 1px solid black;
         box-sizing: border-box;
         background-color: #e6e6e6;
         order: 3;
     }
 
-    .placeholder-box-6 {
+    #placeholder-box-6 {
         display: flex;
+        max-width: 350px;
         flex-direction: column;
-        border: 1px solid black;
-        box-sizing: border-box;
+        height: 100vh;
+        background-color: #e6e6e6;
         gap: 1vw;
     }
 
-    #inner-box {
+    #inner-box-1,
+    #inner-box-2,
+    #inner-box-3 {
+        display: block;
+        width: 20vw;
+        max-width: 340px;
+        border: 1px solid black;
+        box-sizing: border-box;
         margin: 0px;
-        height: 20vw;
+        height: 31vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .inner-box-1,
-    .inner-box-2,
-    .inner-box-3 {
-        display: block;
-        width: 20vw;
-        border: 1px solid black;
-        box-sizing: border-box;
     }
 
     .spot-1 {
@@ -328,19 +352,19 @@
         gap: 0;
     }
 
-    .inner-box-1 h2 {
-        font-size: 2vw;
+    #inner-box-1 h2 {
+        font-size: 1.5vw;
         text-decoration: none;
     }
 
-    .inner-box-1 h3 {
-        font-size: 1.75vw;
+    #inner-box-1 h3 {
+        font-size: 1.25vw;
         line-height: .85;
         margin-bottom: .25em;
     }
 
-    .inner-box-1 p {
-        font-size: 1.5vw;
+    #inner-box-1 p {
+        font-size: 1.25vw;
     }
 
     .spot-2 {
@@ -349,19 +373,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 10px;
     }
 
-    .inner-box-2 h2 {
-        font-size: 1.75vw;
-        margin-bottom: -.25em;
-    }
-
-    .inner-box-2 p {
+    #inner-box-2 h2 {
         font-size: 1.5vw;
         margin-bottom: -.25em;
     }
 
-    .inner-box-3 {
+    #inner-box-2 p {
+        font-size: 1.25vw;
+        margin-bottom: -.25em;
+    }
+
+    #inner-box-3 {
         background-color: #ff8552;
         text-align: center;
         display: flex;
@@ -390,7 +415,7 @@
         font-family: "Cinzel Decorative family";
     }
 
-    .column3 .placeholder-box-5 {
+    .column3 #placeholder-box-5b {
         display: none;
     }
 

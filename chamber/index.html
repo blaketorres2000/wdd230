@@ -23,7 +23,7 @@
     <header>
         <div class="content">
             <div class="row-1">
-                <a id="logo" href="index.html" class="active">
+                <a href="index.html" class="active">
                     <img class="logo" src="images/FredTexas.WebP" alt="Fred Chamber of Commerce Logo">
                 </a>
 
@@ -50,7 +50,7 @@
                         <nav>
                             <ul class="nav-ul responsive" id="nav-ul">
                                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html" class="active">Home</a></li>
                                 <li><a href="discover.html">Discover</a></li>
                                 <li><a href="directory.html">Directory</a></li>
                                 <li><a href="join.html">Join</a></li>
@@ -67,10 +67,10 @@
     </header>
 
     <main>
-        <div class="column1" id="column1">
-            <div class="placeholder-box-1" id="placeholder">
+        <div class="column1">
+            <div id="placeholder-box-1" class="placeholder">
                 <div class="event-center">
-                    <img src="images/event-center.jpeg" alt="Picture of event center">
+                    <img src="images/rsz_event-center.jpg" alt="Picture of event center">
                     <div class="event-text">
                         <h3>4th of July Celebration!</h3>
                         <p>Lively Oak Event Center</p>
@@ -78,16 +78,14 @@
                     </div>
                 </div>
             </div>
-            <div class="placeholder-box-2" id="placeholder">
+            <div id="placeholder-box-2" class="placeholder">
                 <h1>Fred</h1>
                 <h1>Weather</h1>
                 <div class="line1"></div>
                 <div class="temp-icon">
                     <figure>
-                        <img src="" alt="" id="weather-icon" />
-                        <p>
+                        <div id="weather-icon"></div>
                         <figcaption></figcaption>
-                        </p>
                     </figure>
                     <div class="temperature">
                         <p><span id="temp"></span></p>
@@ -99,15 +97,15 @@
                     <p id="wind-speed"></p>
                 </div>
                 <p id="wind-chill"></p>
-                <p1>Weather provided by Open Weather Map</p1>
+                <p id="weather-provider">Weather provided by Open Weather Map</p>
             </div>
-            <div class="placeholder-box-3" id="placeholder">
+            <div id="placeholder-box-3" class="placeholder">
                 <a class="button" href="join.html">Join Us</a>
                 <p>Discover how to join the chamber of commerce and how it will benefit your organization.</p>
             </div>
         </div>
-        <div class="column2" id="column2">
-            <div class="placeholder-box-4" id="placeholder">
+        <div class="column2">
+            <div id="placeholder-box-4" class="placeholder">
                 <div class="hero">
                     <!-- <picture>
                         <source srcset="images/medium-wdd230-org.jpg" media="(min-width:764px) and (max-width:1023px)">
@@ -117,10 +115,10 @@
                     <div class="overlay1">Fred, Texas Chamber of Commerce</div>
                     <!-- <div class="overlay2">Medium</div>
                     <div class="overlay3">Large</div> -->
-                    <img src="images/fog_over_water.jpeg" alt="Fog over marsh water">
+                    <img src="images/rsz_fog_over_water.jpg" alt="Fog over marsh water">
                 </div>
             </div>
-            <div class="placeholder-box-5" id="placeholder">
+            <div id="placeholder-box-5" class="placeholder">
                 <div class="news1">
                     <img src="images/dam-b.jpeg" alt="Picture of Dam B">
                     <div class="news1-text">
@@ -133,8 +131,8 @@
                 </div>
             </div>
         </div>
-        <div class="column3" id="column3">
-            <div class="placeholder-box-5" id="placeholder">
+        <div class="column3">
+            <div id="placeholder-box-5b" class="placeholder">
                 <div class="news2">
                     <img src="images/dam-b.jpeg" alt="Picture of Dam B">
                     <div class="news2-text">
@@ -147,8 +145,8 @@
                 </div>
 
             </div>
-            <div class="placeholder-box-6" id="placeholder">
-                <div class="inner-box-1" id="inner-box">
+            <div id="placeholder-box-6" class="placeholder">
+                <div id="inner-box-1" class="inner-box">
                     <div class="spot-1">
                         <h2>New Store Opening</h2>
                         <h3>The Animal Kingdom</h3>
@@ -156,7 +154,7 @@
                         <p>Opens June 2nd!</p>
                     </div>
                 </div>
-                <div class="inner-box-2" id="inner-box">
+                <div id="inner-box-2" class="inner-box">
                     <div class="spot-2">
                         <h2>New Chamber President</h2>
                         <p>Bill Clark was recently appointed President of the Fred Chamber of Commerce. He has 35 years
@@ -164,7 +162,7 @@
                         <p>Welcome Mr. Clark!</p>
                     </div>
                 </div>
-                <div class="inner-box-3" id="inner-box">
+                <div id="inner-box-3" class="inner-box">
                     <div class="spot-3">
                         <h2>Learn Archery</h2>
                         <p>Precision Archery is offering free archery lessons to kids under 16.
@@ -177,7 +175,7 @@
     </main>
     <footer>
         <div class="main-part">
-            <a id="logo" href="index.html">
+            <a href="index.html">
                 <img class="logo" src="images/FredTexas.WebP" alt="Fred Chamber of Commerce Logo">
             </a>
             <div class="title-main">
@@ -198,7 +196,7 @@
             <div class="map-link">
                 <a href="https://goo.gl/maps/WVJnUCrxEWs1udha6" target="_blank">
                     <div class="map">
-                        <img src="images/fred-map.png">
+                        <img src="images/rsz_fred-map.png" alt="fred map placeholder">
                     </div>
                 </a>
             </div>

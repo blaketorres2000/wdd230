@@ -213,7 +213,7 @@ main .directory-main {
   font-size: 1.25em;
   margin-top: 5px;
   margin-bottom: 30px;
-  font-family: Arial Rounded MT Bold;
+  font-family: Arial, Helvetica, sans-serif;
   color: #ff8552;
 }
 
@@ -264,7 +264,6 @@ form label.top {
 
 form label.top input,
 form label.top select {
-  -webkit-appearance: none;
   display: block;
   margin: 0 auto;
   margin-top: .25vh;
@@ -474,9 +473,9 @@ form label.top select {
 
 /* Home Page and general CSS */
 
-.placeholder-box-3,
-.inner-box-3,
-.column2 .placeholder-box-5 {
+#placeholder-box-3,
+#inner-box-3,
+.column2 #placeholder-box-5 {
   display: none;
 }
 
@@ -492,12 +491,12 @@ form label.top select {
   order: 3;
 }
 
-#placeholder {
+.placeholder {
   flex: 1 0 100px;
   margin: 1.5vw;
 }
 
-.placeholder-box-4 {
+#placeholder-box-4 {
   position: relative;
   order: 1;
   border: 1px solid black;
@@ -537,7 +536,7 @@ form label.top select {
   max-height: none;
 }
 
-.placeholder-box-1 {
+#placeholder-box-1 {
   order: 2;
   position: relative;
   border: 1px solid black;
@@ -582,7 +581,7 @@ form label.top select {
   font-weight: bold;
 }
 
-.placeholder-box-2 {
+#placeholder-box-2 {
   order: 3;
   border: 1px solid black;
   box-sizing: border-box;
@@ -601,7 +600,7 @@ form label.top select {
   line-height: 1px;
 }
 
-.placeholder-box-2 h1 {
+#placeholder-box-2 h1 {
   margin-top: 1vw;
   font-size: 3.5vh;
   text-shadow: 1px 1px 4px #ff8652b2;
@@ -643,6 +642,10 @@ figure {
   gap: .5vw;
 }
 
+#placeholder-box-2 .temperature p {
+  font-size: 3vw;
+}
+
 .temperature {
   display: flex;
   flex-direction: row;
@@ -655,7 +658,7 @@ figure {
   color: black;
 }
 
-.placeholder-box-2 p {
+#placeholder-box-2 p {
   font-size: 2vh;
 }
 
@@ -667,24 +670,23 @@ figure {
   font-size: 1vw;
 }
 
-.placeholder-box-2 img {
+#placeholder-box-2 img {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
 }
 
-p1 {
+#placeholder-box-2 #weather-provider {
   font-size: .75vh;
   color: black;
 }
 
-.placeholder-box-5 {
+#placeholder-box-5b {
   position: relative;
   order: 2;
   border: 1px solid black;
   box-sizing: border-box;
-  background-color: black;
   height: 250px;
   overflow: hidden;
   margin: 0 auto;
@@ -694,7 +696,7 @@ p1 {
   box-shadow: 0 1vh 2vw #4b4949;
 }
 
-.placeholder-box-5 .news2 {
+#placeholder-box-5b .news2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -732,7 +734,7 @@ p1 {
   padding: .5vw;
 }
 
-.placeholder-box-6 {
+#placeholder-box-6 {
   order: 5;
   border: 1px solid black;
   box-sizing: border-box;
@@ -742,11 +744,11 @@ p1 {
   font-family: "Castoro Titling", serif;
 }
 
-#inner-box {
+.inner-box {
   margin: 3vh;
 }
 
-.inner-box-1 {
+#inner-box-1 {
   border: 1px solid black;
   box-sizing: border-box;
   color: black;
@@ -762,20 +764,20 @@ p1 {
   line-height: .5;
 }
 
-.inner-box-1 h2 {
+#inner-box-1 h2 {
   font-size: 5vw;
   text-decoration: underline;
 }
 
-.inner-box-1 h3 {
+#inner-box-1 h3 {
   font-size: 4vw;
 }
 
-.inner-box-1 p {
+#inner-box-1 p {
   font-size: 3vw;
 }
 
-.inner-box-2 {
+#inner-box-2 {
   border: 1px solid black;
   box-sizing: border-box;
   background-color: #297373;
@@ -793,12 +795,12 @@ p1 {
   line-height: 1;
 }
 
-.inner-box-2 h2 {
+#inner-box-2 h2 {
   text-decoration: underline;
   margin-top: 1vw;
 }
 
-.inner-box-2 p {
+#inner-box-2 p {
   font-family: "Cinzel Decorative family";
   font-size: 3vw;
 }

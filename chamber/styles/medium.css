@@ -96,8 +96,8 @@
     filter: saturate(200%);
   }
 
-  .inner-box-3,
-  .column3 .placeholder-box-5 {
+  #inner-box-3,
+  .column3 #placeholder-box-5b {
     display: none;
   }
 
@@ -116,12 +116,12 @@
     order: 2;
   }
 
-  #placeholder {
+  .placeholder {
     flex: 1 0 100px;
-    margin: 10px;
+    /* margin: 10px; */
   }
 
-  .placeholder-box-4 {
+  #placeholder-box-4 {
     order: 1;
     border: 1px solid black;
     box-sizing: border-box;
@@ -147,20 +147,21 @@
     display: none;
   }
 
-  .placeholder-box-1 {
+  #placeholder-box-1 {
     order: 2;
     border: 1px solid black;
     box-sizing: border-box;
     background-color: #e6e6e6;
     height: 250px;
     flex-basis: 66.6%;
+    margin-right: 15px;
   }
 
   .event-text {
     font-size: 2vw;
   }
 
-  .placeholder-box-2 {
+  #placeholder-box-2 {
     order: 3;
     border: 1px solid black;
     box-sizing: border-box;
@@ -168,23 +169,27 @@
     flex-basis: 33.3%;
   }
 
-  .placeholder-box-2 h1 {
+  #placeholder-box-2 h1 {
     font-size: 3vh;
   }
 
-  .placeholder-box-2 p {
+  #placeholder-box-2 p {
     font-size: 1.75vh;
   }
 
   figure {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   figcaption {
     margin-top: -4vh;
     margin-bottom: -2vh;
-    font-size: 2vw;
+    font-size: 1.75vw;
+  }
+  
+  #placeholder-box-2 .temperature p {
+    font-size: 1.75vw;
   }
 
   .windS {
@@ -195,17 +200,16 @@
     width: 90%;
   }
 
-  .placeholder-box-2 img {
+  #placeholder-box-2 img {
     width: 70%;
     height: 100%;
   }
 
-  .placeholder-box-3 {
+  #placeholder-box-3 {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #e6e6e6;
     height: 250px;
     order: 1;
     box-shadow: 0 10px 20px #1d1b1b;
@@ -214,12 +218,16 @@
     text-align: center;
     background-color: #297373;
     font-family: "Cinzel Decorative family";
+    margin-top: -.5px;
   }
 
-  .placeholder-box-3 .button {
+  #placeholder-box-3 .button {
     background-color: #e6e6e6;
     color: #297373;
     width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 4vw;
     font-size: 3vw;
     border-radius: 10px;
@@ -227,24 +235,23 @@
     margin-top: 1vw;
   }
 
-  .placeholder-box-3 .button:hover {
+  #placeholder-box-3 .button:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
 
-  .placeholder-box-3 p {
+  #placeholder-box-3 p {
     color: white;
     font-size: 2vw;
     padding: .5vw;
   }
 
-  .column2 .placeholder-box-5 {
+  .column2 #placeholder-box-5 {
     position: relative;
     order: 2;
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: black;
     height: 250px;
     overflow: hidden;
     margin: 0 auto;
@@ -254,7 +261,7 @@
     box-shadow: 0 10px 20px #1d1b1b;
   }
 
-  .placeholder-box-5 .news1 {
+  #placeholder-box-5 .news1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -293,7 +300,7 @@
     padding: .5vw;
   }
 
-  .placeholder-box-6 {
+  #placeholder-box-6 {
     order: 5;
     border: 1px solid black;
     box-sizing: border-box;
@@ -302,12 +309,12 @@
     display: flex;
   }
 
-  #inner-box {
+  .inner-box {
     margin: 10px;
     flex-basis: 50%;
   }
 
-  .inner-box-1 {
+  #inner-box-1 {
     border: 1px solid black;
     box-sizing: border-box;
     background-color: #ff8552;
@@ -319,19 +326,19 @@
     gap: 1px;
   }
 
-  .inner-box-1 h2 {
+  #inner-box-1 h2 {
     font-size: 3vw;
   }
 
-  .inner-box-1 h3 {
+  #inner-box-1 h3 {
     font-size: 2.5vw;
   }
 
-  .inner-box-1 p {
+  #inner-box-1 p {
     font-size: 2.25vw;
   }
 
-  .inner-box-2 {
+  #inner-box-2 {
     border: 1px solid black;
     box-sizing: border-box;
     background-color: #297373;
@@ -344,7 +351,7 @@
     line-height: 1;
   }
 
-  .inner-box-2 p {
+  #inner-box-2 p {
     font-family: "Cinzel Decorative family";
     font-size: 1.75vw;
   }

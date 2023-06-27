@@ -44,19 +44,19 @@ function topBanner() {
   }
 }  
 
-//Info Link Expand/Collapse
+// Info Link Expand/Collapse
 function setupInfoLinks() {
   const infoLinks = document.querySelectorAll('.info-link');
 
   infoLinks.forEach((link) => {
     link.addEventListener('click', function (event) {
       event.preventDefault();
-      const infoContent = this.nextElementSibling;
+      const infoContainer = this.closest('.info-container');
+      const infoContent = infoContainer.querySelector('.info-content');
       infoContent.classList.toggle('expanded');
     });
   });
 }
-
 
 getCurrentDate();
 displayFooter();
