@@ -185,7 +185,7 @@ main .directory-main {
 
 
 .business-card {
-  color: #ff8552;
+  color: white;
   background-color: #226161;
   border: #787887 1px solid;
   padding: .5em;
@@ -210,7 +210,7 @@ main .directory-main {
 .business-phone,
 .business-established,
 .business-website {
-  color: #e6e6e6;
+  color: white;
   margin-bottom: 20px;
   margin-top: -20px;
   font-size: 1em;
@@ -220,8 +220,11 @@ main .directory-main {
   font-size: 1.25em;
   margin-top: 5px;
   margin-bottom: 30px;
+  padding: 3px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #ff8552;
+  color: white;
+  border: 3px solid #ff8552;
+  border-radius: 5px;
 }
 
 /* Join Us Page */
@@ -416,12 +419,12 @@ form label.top select {
 
 #discover-main h2 {
   font-size: 4vw;
-  color: #ff8552;
+  color: white;
   background-color: #226161;
   max-width: fit-content;
   margin: 0 auto;
   margin-bottom: 20px;
-  border: 1px solid black;
+  border: 3px solid #ff8552;
   border-radius: 10px;
   padding: 10px;
 }
@@ -603,7 +606,7 @@ form label.top select {
 
 #placeholder-box-2 h1 {
   margin-top: 1vw;
-  font-size: 3.5vh;
+  font-size: 3.5vw;
   color: white;
 }
 
@@ -879,6 +882,7 @@ figure {
   margin-left: auto;
   margin-right: auto;
   color: #226161;
+  background-color: white;
   padding: .5rem;
   font-size: 1rem;
   border-radius: 5px;
