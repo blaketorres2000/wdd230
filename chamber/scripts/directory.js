@@ -1,3 +1,4 @@
+
 const datajson = 'json/data.json';
 
 async function getBusinessData() {
@@ -11,29 +12,29 @@ const displayBusinesses = (businesses) => {
 
     businesses.forEach((business) => {
         let card = document.createElement('section');
-        card.setAttribute('class', 'business-card'); 
-    
+        card.setAttribute('class', 'business-card');
+
         let h2 = document.createElement('h2');
-        h2.setAttribute('id', 'business-name'); 
-    
+        h2.setAttribute('id', 'business-name');
+
         let p = document.createElement('p');
-        p.setAttribute('class', 'business-contact'); 
-    
+        p.setAttribute('class', 'business-contact');
+
         let p2 = document.createElement('p');
-        p2.setAttribute('class', 'business-established'); 
-    
+        p2.setAttribute('class', 'business-established');
+
         let p3 = document.createElement('p');
-        p3.setAttribute('class', 'business-address'); 
-    
+        p3.setAttribute('class', 'business-address');
+
         let p4 = document.createElement('p');
-        p4.setAttribute('class', 'business-phone'); 
-    
+        p4.setAttribute('class', 'business-phone');
+
         let p5 = document.createElement('p');
-        p5.setAttribute('class', 'business-website'); 
-        
+        p5.setAttribute('class', 'business-website');
+
         let portrait = document.createElement('img');
         portrait.setAttribute('id', 'business-image');
-    
+
         h2.textContent = `${business.name}`;
         p.textContent = `Contact: ${business.contact}`;
         p2.textContent = `Established: ${business.established}`;

@@ -187,7 +187,7 @@ main .directory-main {
 .business-card {
   color: white;
   background-color: #226161;
-  border: #787887 1px solid;
+  border: #ff8552 3px solid;
   padding: .5em;
   display: flex;
   flex-direction: column;
@@ -223,9 +223,34 @@ main .directory-main {
   padding: 3px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  border: 3px solid #ff8552;
-  border-radius: 5px;
+  text-decoration: underline #ff8552;
 }
+
+.display-options {
+  margin-bottom: 10px;
+}
+
+.list-view {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-view li {
+  margin-bottom: 10px;
+}
+
+.list-view li h2 {
+  margin-top: 0;
+}
+
+.list-view .business-image {
+  max-height: 100px;
+}
+
+.list-view .business-website {
+  margin-bottom: 0;
+}
+
 
 /* Join Us Page */
 
