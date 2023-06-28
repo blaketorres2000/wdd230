@@ -54,7 +54,7 @@
     margin-right: 40px;
     align-items: center;
     justify-content: center;
-    color: #e6e6e6;
+    color: white;
   }
 
 
@@ -171,7 +171,7 @@
   }
 
   #placeholder-box-2 h1 {
-    font-size: 3vw;
+    font-size: 2.75vw;
   }
 
   #placeholder-box-2 p {
@@ -181,7 +181,7 @@
   figure {
     display: flex;
     flex-direction: row;
-    margin-top: 4vw;
+    margin-top: 3vw;
   }
 
   figcaption {
@@ -191,8 +191,14 @@
   }
 
   .temp-icon {
+    display: flex;
     font-size: 3vw;
   }
+
+  .temp-icon #weather-icon {
+    height: 35px;
+    width: 50px;
+  }  
   
   #placeholder-box-2 .temperature p {
     font-size: 2vw;
@@ -230,14 +236,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #297373;
+    background-color: #226161;
     font-family: "Cinzel Decorative family";
     margin-top: -.5px;
   }
 
   #placeholder-box-3 .button {
     background-color: #e6e6e6;
-    color: #297373;
+    color: #226161;
     width: 15vw;
     display: flex;
     justify-content: center;
@@ -355,7 +361,7 @@
   #inner-box-2 {
     border: 1px solid black;
     box-sizing: border-box;
-    background-color: #297373;
+    background-color: #226161;
     height: 175px;
   }
 

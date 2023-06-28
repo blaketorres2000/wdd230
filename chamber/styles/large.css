@@ -12,7 +12,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: #297373;
+        background-color: #226161;
         width: 100%;
         max-width: 1600px;
     }
@@ -33,7 +33,6 @@
     .heading {
         font-size: 1.15vw;
         max-height: fit-content;
-        color: #e6e6e6;
     }
 
     /* This is for the Social media icons and the navigation */
@@ -88,7 +87,6 @@
         display: flex;
         justify-content: space-evenly;
         text-align: center;
-        color: #e6e6e6;
         padding: 2vh;
         font-size: 1.5vw;
         margin-left: -6.5vw;
@@ -163,7 +161,7 @@
         border: 1px solid black;
         box-shadow: 1px 1px 1px #474646;
         border-radius: 10px;
-        background-color: #2973731e;
+        background-color: #2261611e;
     }
 
     .benefitList {
@@ -187,7 +185,7 @@
 
     .joinColumn2 h2 {
         font-size: 1.5rem;
-        color: #297373;
+        color: #226161;
     }
 
     #discover-main p {
@@ -212,6 +210,7 @@
         width: 22.5vw;
         max-width: 350px;
         flex-basis: 31%;
+        margin-left: 15px;
     }
 
 
@@ -240,7 +239,7 @@
     figure {
         display: flex;
         flex-direction: column;
-        margin-top: 3vh;
+        margin-top: 3vw;
         gap: 50px;
     }
 
@@ -249,14 +248,18 @@
     }
 
     #weather-icon {
-        margin-top: -1vw;
         gap: 1vw;
     }
+
+    .temp-icon #weather-icon {
+        margin-bottom: 30px;
+    }
+
 
     .temperature {
         display: flex;
         flex-direction: row;
-        margin-top: -1vh;
+        margin-top: 1vw;
     }
 
     .windS {
@@ -522,7 +525,7 @@
     #footer {
         display: flex;
         justify-content: center;
-        background-color: #297373;
+        background-color: #226161;
         color: white;
         padding: .5vw;
         margin: .5vw;

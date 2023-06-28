@@ -57,6 +57,6 @@ const displayBusinesses = (businesses) => {
 
         cards.appendChild(card);
     });
-}
+};
 
 getBusinessData();
