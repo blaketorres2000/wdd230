@@ -67,7 +67,7 @@
     margin-right: 20px;
   }
 
-
+  /* Directory Page */
 
   .cards {
     grid-template-columns: repeat(2, minmax(300px, 1fr));
@@ -76,6 +76,49 @@
   #businessDescription {
     width: 50vw;
   }
+
+  .list-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+  }
+
+  .list-view .business-card {
+    max-width: 700px;
+  }
+
+  .list-view .business-contact {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+  }
+
+  .list-view .business-established {
+    display: block;
+    font-size: 1.5vw;
+  }
+
+  .list-view .business-address,
+  .list-view .business-phone {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+  }
+
+  .list-view .business-website {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-size: 1.5vw;
+  }
+
+  .list-view #business-name {
+    font-size: 2vw;
+    margin-bottom: 5px;
+  }
+
+  /* Discover Page */
 
   #discover-main h1 {
     font-size: 4vw;
@@ -198,8 +241,8 @@
   .temp-icon #weather-icon {
     height: 35px;
     width: 50px;
-  }  
-  
+  }
+
   #placeholder-box-2 .temperature p {
     font-size: 2vw;
   }
@@ -382,7 +425,7 @@
 
   .contactUsMain h2 {
     font-size: 4vw;
-  }  
+  }
 
   .contactUs ul li button {
     font-size: 1.2rem;

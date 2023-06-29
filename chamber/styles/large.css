@@ -132,6 +132,17 @@
         grid-template-columns: repeat(3, minmax(300px, 1fr));
     }
 
+    .list-view #business-name {
+        font-size: 1.5vw;
+    }
+
+    .list-view .business-contact,
+    .list-view .business-address,
+    .list-view .business-phone {
+        margin-bottom: -5px;
+    }
+
+
     .joinUs {
         display: flex;
         flex-direction: column;

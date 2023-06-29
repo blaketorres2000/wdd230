@@ -8,7 +8,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Gold",
       "image": "images/gibbs.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Elsa's Italian Restaurant",
@@ -18,7 +18,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Bronze",
       "image": "images/elsas.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Rikkenjaks Brewing Company",
@@ -28,7 +28,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Silver",
       "image": "images/rikkenjaks.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
 
     {
@@ -39,7 +39,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Silver",
       "image": "images/robiceaus.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "T & T Pharmacy",
@@ -49,7 +49,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Gold",
       "image": "images/ttpharmlogo.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Wright's Bar-B-Que",
@@ -59,7 +59,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Gold",
       "image": "images/wrights.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Senor Toro's Mexican Restaurant",
@@ -69,7 +69,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Bronze",
       "image": "images/senortoro.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Powell's Muffler and Brake",
@@ -79,7 +79,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Silver",
       "image": "images/powells.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Fred Rotary Club",
@@ -89,7 +89,7 @@
       "phone": "555-555-5555",
       "memberlevel": "NP",
       "image": "images/rotary.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     },
     {
       "name": "Donut Palace",
@@ -99,7 +99,7 @@
       "phone": "555-555-5555",
       "memberlevel": "Bronze",
       "image": "images/donut.png",
-      "url": "http://www.blankwebsite.com/"
+      "url": "http://www.blankwebsite.com"
     }
   ]
 }
