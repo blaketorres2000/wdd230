@@ -139,7 +139,13 @@
     .list-view .business-contact,
     .list-view .business-address,
     .list-view .business-phone {
-        margin-bottom: -5px;
+        margin-bottom: 5px;
+        font-size: 1.2vw;
+    }
+
+    .list-view .business-website,
+    .list-view .business-established {
+        font-size: 1.2vw;
     }
 
 
