@@ -579,6 +579,10 @@ form label.top select {
 
 .column3 {
   order: 3;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: #ff8652dc;
+
 }
 
 .placeholder {
@@ -829,12 +833,18 @@ figure {
 
 #placeholder-box-6 {
   order: 5;
-  border: 1px solid black;
   box-sizing: border-box;
-  height: 440px;
-  box-shadow: 0 1vh 2vw #4b4949;
-  background-color: #e6e6e6;
-  font-family: "Castoro Titling", serif;
+  height: 600px;
+  background-color: none;
+}
+
+#silver-card-container,
+#gold-card-container {
+  line-height: 1;
+}
+
+.business-contact1 {
+  display: none;
 }
 
 .inner-box {
@@ -842,44 +852,45 @@ figure {
 }
 
 #inner-box-1 {
-  border: 1px solid black;
-  box-sizing: border-box;
-  color: black;
-  background-color: #ff8552;
-  height: 190px;
+  height: 265px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #226161;
+  color: white;
+  border: 10px solid rgb(234, 203, 25);
+  line-height: .75;
 }
 
 .spot-1 {
   line-height: .5;
 }
 
-#inner-box-1 h2 {
-  font-size: 5vw;
-  text-decoration: underline;
+#business-image1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
 }
 
-#inner-box-1 h3 {
-  font-size: 4vw;
+#business-name1 {
+  font-size: 20px;
+  text-decoration: underline 5px rgb(234, 203, 25);
 }
 
 #inner-box-1 p {
-  font-size: 3vw;
+  font-size: 18px;
 }
 
 #inner-box-2 {
-  border: 1px solid black;
-  box-sizing: border-box;
-  background-color: #226161;
-  height: 190px;
+  height: 265px;
   text-align: center;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: silver 10px solid;
+  background-color: #226161;
+  color: white;
 }
 
 .spot-2 {
@@ -889,13 +900,13 @@ figure {
 }
 
 #inner-box-2 h2 {
-  text-decoration: underline;
-  margin-top: 1vw;
+  font-size: 20px;
+  text-decoration: underline silver 5px;
 }
 
 #inner-box-2 p {
   font-family: "Cinzel Decorative family";
-  font-size: 3vw;
+  font-size: 18px;
 }
 
 .contactUsMain {
@@ -906,7 +917,7 @@ figure {
 }
 
 .contactUsMain h2 {
-  font-size: 5vw;
+  font-size: 40px;
   color: #226161;
   text-align: center;
   text-decoration: underline;

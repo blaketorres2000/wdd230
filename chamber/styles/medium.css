@@ -365,10 +365,8 @@
 
   #placeholder-box-6 {
     order: 5;
-    border: 1px solid black;
     box-sizing: border-box;
-    background-color: #e6e6e6;
-    height: 200px;
+    height: 300px;
     display: flex;
   }
 
@@ -377,35 +375,19 @@
     flex-basis: 50%;
   }
 
-  #inner-box-1 {
-    border: 1px solid black;
-    box-sizing: border-box;
-    background-color: #ff8552;
-    height: 175px;
-  }
+  /* #inner-box-1 h2,
+  #inner-box-2 h2 {
+    font-size: 2.75vw;
+  } */
+
+  /* #inner-box-1 p,
+  #inner-box-2 p {
+    font-size: 1.35vw;
+  } */
 
   .spot-1 {
     line-height: 2vw;
     gap: 1px;
-  }
-
-  #inner-box-1 h2 {
-    font-size: 3vw;
-  }
-
-  #inner-box-1 h3 {
-    font-size: 2.5vw;
-  }
-
-  #inner-box-1 p {
-    font-size: 2.25vw;
-  }
-
-  #inner-box-2 {
-    border: 1px solid black;
-    box-sizing: border-box;
-    background-color: #226161;
-    height: 175px;
   }
 
   .spot-2 {
@@ -414,17 +396,8 @@
     line-height: 1;
   }
 
-  #inner-box-2 p {
-    font-family: "Cinzel Decorative family";
-    font-size: 1.75vw;
-  }
-
   .contactUs {
     height: 70vh;
-  }
-
-  .contactUsMain h2 {
-    font-size: 4vw;
   }
 
   .contactUs ul li button {
