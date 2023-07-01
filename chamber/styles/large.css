@@ -3,29 +3,18 @@
     .banner {
         padding: .5vw;
         font-size: 2vw;
-        width: 100%;
     }
 
     /* Header */
 
     .content {
-        display: flex;
-        flex-direction: column;
         justify-content: space-evenly;
-        background-color: #226161;
         width: 100%;
-        max-width: 1600px;
     }
 
     /* Main Header Row */
 
-    .row-1 {
-        display: flex;
-        flex-direction: row;
-    }
-
     .logo {
-        max-height: 150px;
         margin-left: 1.5vw;
         margin-bottom: 1.75vw;
     }
@@ -38,31 +27,19 @@
     /* This is for the Social media icons and the navigation */
 
     .cont {
-        display: flex;
-        flex-direction: row;
         align-items: center;
     }
 
     /* This is the social media icons */
 
     #col1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         margin-right: 6vw;
         margin-left: 2vw;
-    }
-
-    .social {
-        display: flex;
-        flex-direction: column;
     }
 
     /* This is the navigation menu */
 
     #col2 {
-        display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
     }
 
@@ -86,29 +63,17 @@
     .nav-ul a {
         display: flex;
         justify-content: space-evenly;
-        text-align: center;
         padding: 2vh;
         font-size: 1.5vw;
         margin-left: -6.5vw;
     }
 
-    .nav-ul a:hover {
-        color: black;
-        background-color: #ff8552;
-        text-decoration: underline;
-    }
-
-
     /* Date Header Row */
     .row-2 {
-        display: flex;
         max-height: 10px;
-        justify-content: center;
-        background-color: #e6e6e6;
         font-size: 2vw;
         padding-bottom: 1vw;
     }
-
 
     /* Main */
 
@@ -127,6 +92,8 @@
         justify-content: center;
         align-items: center;
     }
+
+    /* Directory Page */
 
     .cards {
         grid-template-columns: repeat(3, minmax(300px, 1fr));
@@ -148,10 +115,9 @@
         font-size: 1.2vw;
     }
 
+    /* Join Us Page */
 
     .joinUs {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -205,9 +171,13 @@
         color: #226161;
     }
 
+    /* Discover Page */
+
     #discover-main p {
         font-size: 1.55vw;
     }
+
+  /* Home Page and general CSS */
 
     .column1 {
         display: flex;
@@ -235,9 +205,6 @@
         order: 2;
         width: 22.5vw;
         max-width: 350px;
-        border: 1px solid black;
-        box-sizing: border-box;
-        display: flex;
         flex-basis: 31%;
     }
 
@@ -256,7 +223,6 @@
     figure {
         display: flex;
         flex-direction: column;
-        margin-top: 3vw;
         gap: 50px;
     }
 
@@ -274,8 +240,6 @@
 
 
     .temperature {
-        display: flex;
-        flex-direction: row;
         margin-top: 1vw;
     }
 
@@ -292,10 +256,6 @@
         order: 3;
         width: 22.5vw;
         max-width: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         flex-basis: 31%;
     }
 
@@ -365,23 +325,15 @@
         max-width: 340px;
         margin: 0px;
         height: 31vh;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     #inner-box-2 {
         width: 20vw;
         max-width: 340px;
-        color: white;
         margin: 0px;
         height: 31vh;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #226161;
     }
 
     #inner-box-3 {
@@ -478,12 +430,6 @@
 
     /* Footer */
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        background-color: #e6e6e6;
-    }
-
     .main-part {
         display: flex;
         flex-direction: row;
@@ -555,12 +501,7 @@
 
 
     #footer {
-        display: flex;
-        justify-content: center;
-        background-color: #226161;
-        color: white;
         padding: .5vw;
         margin: .5vw;
-        font-size: 2vw;
     }
 }

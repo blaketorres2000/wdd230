@@ -1,9 +1,3 @@
-/* --primary-color: #35a1b2;tourquise
---secondary-color: #226161; blue teal
---accent1-color: #ff8552; orange
---accent2-color: #e6e6e6;grey
---accent3-color: #39393a; charcoal */
-
 body {
   max-width: 1600px;
   background-color: white;
@@ -96,6 +90,13 @@ header {
 
 /* This is the navigation menu */
 
+
+.nav-ul {
+  display: block;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
 .nav-ul li a.active {
   color: white;
   font-style: italic;
@@ -119,13 +120,6 @@ header {
 
 .responsive li {
   display: block;
-}
-
-.nav-ul {
-  display: block;
-  flex-direction: row;
-  list-style-type: none;
-  margin: 0 auto;
 }
 
 .nav-ul a {
@@ -152,7 +146,6 @@ header {
   height: 3vw;
   padding-top: 2vw;
 }
-
 
 /* Main */
 
@@ -318,7 +311,6 @@ main {
   font-size: 3vw;
   margin-bottom: 5px;
 }
-
 
 /* Join Us Page */
 
@@ -1017,7 +1009,6 @@ footer {
   align-items: center;
   text-align: center;
   line-height: .25;
-
 }
 
 footer .logo {

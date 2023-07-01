@@ -3,41 +3,13 @@
   .banner {
     padding: 1vw;
     font-size: 3vw;
-    width: 100%;
   }
 
   /* Header */
 
-  .col2 {
-    margin-right: 50px;
-  }
-
-  #col2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 10px;
-    margin-right: 50px;
-  }
-
-  .social {
-    display: flex;
-    flex-direction: column;
-  }
-
   .row-1 {
-    display: flex;
     flex-direction: row;
     align-items: center;
-  }
-
-  #col1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 20px;
   }
 
   .logo {
@@ -54,15 +26,37 @@
     margin-right: 40px;
     align-items: center;
     justify-content: center;
-    color: white;
   }
 
+  #col1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col2 {
+    margin-right: 50px;
+  }
+
+  #col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 50px;
+  }
 
   /* Main */
 
   main {
-    display: flex;
-    flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -140,6 +134,8 @@
     filter: saturate(200%);
   }
 
+  /* Home Page and general CSS */
+
   #inner-box-3,
   .column3 #placeholder-box-5b {
     display: none;
@@ -192,11 +188,6 @@
   }
 
   #placeholder-box-1 {
-    order: 2;
-    border: 1px solid black;
-    box-sizing: border-box;
-    background-color: #e6e6e6;
-    height: 250px;
     flex-basis: 66.6%;
     margin-right: 15px;
   }
@@ -206,10 +197,6 @@
   }
 
   #placeholder-box-2 {
-    order: 3;
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 300px;
     flex-basis: 33.3%;
   }
 
@@ -222,8 +209,6 @@
   }
 
   figure {
-    display: flex;
-    flex-direction: row;
     margin-top: 3vw;
   }
 
@@ -364,8 +349,6 @@
   }
 
   #placeholder-box-6 {
-    order: 5;
-    box-sizing: border-box;
     height: 300px;
     display: flex;
   }
@@ -374,16 +357,6 @@
     margin: 10px;
     flex-basis: 50%;
   }
-
-  /* #inner-box-1 h2,
-  #inner-box-2 h2 {
-    font-size: 2.75vw;
-  } */
-
-  /* #inner-box-1 p,
-  #inner-box-2 p {
-    font-size: 1.35vw;
-  } */
 
   .spot-1 {
     line-height: 2vw;
