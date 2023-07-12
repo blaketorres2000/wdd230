@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Blake Torres"
+        content="Bountiful Foods Home Page for Blake Torres in WDD 230: Web Frontend Development at BYU - Idaho">
+    <title>Bountiful Foods Home Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div id="date"></div>
+        <div id="headerRow-1">
+            <a href="index.html" class="active">
+                <img src="images/logo.png" alt="Bountiful Foods Logo">
+            </a>
+        </div>
+        <div id="headerRow-2">
+            <nav>
+                <ul class="nav-ul responsive" id="nav-ul">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="heroImage">
+            <h1>Bountiful Foods</h1>
+            <img src="images/heroFruit.jpeg" alt="Hero Image of fresh produce">
+        </div>
+
+        <div id="freshDrinkContainer">
+            <div class="freshDrink">
+                <div id="freshMain">
+                    <h2>Fresh Drinks</h2>
+                    <img class="placeholder" src="https://placehold.jp/300x400.png" data-src="images/drink.jpeg" alt="Image of our fresh drinks" loading="lazy">
+                    <div id="freshText">
+                        <p>Create your own custom drink or choose from one of our proven recipes.</p>
+                        <p>Our drinks are made with the freshest ingredients. We have a wide variety of drinks that are
+                            sure to
+                            please.</p>
+                    </div>
+                </div>
+                <div id="drinkList">
+                    <h2>Your Custom Drinks</h2>
+                    <ul>
+                        <li>Smoothies</li>
+                        <li>Shakes</li>
+                        <li>Slushes</li>
+                        <li>Italian Sodas</li>
+                        <li>And More!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="social">
+            <h2>Follow Us</h2>
+            <div class="socialMedia">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.WebP" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.WebP" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.WebP" alt="instagram icon">
+                </a>
+            </div>
+        </div>
+
+        <div class="weather-container">
+            <div id="weather">
+                <h1>Weather</h1>
+                <div class="line1"></div>
+                <div class="temp-icon">
+                    <figure>
+                        <div id="weather-icon"></div>
+                        <figcaption></figcaption>
+                    </figure>
+                    <div class="temperature">
+                        <p><span id="temp"></span> &deg;F</p>
+                    </div>
+                </div>
+                <div class="weather-details">
+                    <div class="humidity">
+                        <h3>Humidity</h3>
+                        <p id="humidity-value"></p>
+                    </div>
+                    <div class="forecast">
+                        <h3>3-Day Forecast</h3>
+                        <ul id="forecast-list"></ul>
+                    </div>
+                </div>
+                <p id="weather-provider">Weather provided by Open Weather Map</p>
+            </div>
+        </div>
+
+        <div id="areaInfo">
+            <h2>Inside Our Community</h2>
+            <div id="areaInfoContainer">
+                <div id="areaInfoText">
+                    <p>Carlsbad is a coastal city in the North County region of San Diego County, California, United
+                        States. The city is 87 miles (140 km) south of downtown Los Angeles and 35 miles (56 km) north
+                        of downtown San Diego and is part of the San Diego-Carlsbad, CA Metropolitan Statistical Area.
+                        Carlsbad is a popular tourist destination. The city's estimated 2019 population was 115,382.
+                        Among the nation's top 20 wealthiest communities, Carlsbad is the 5th richest city in the state
+                        of California with a median household income close to US$105,000.</p>
+                </div>
+                <div id="areaInfoImage">
+                    <img class="placeholder" src="https://placehold.jp/300x400.png" data-src="images/carlsbad-california.jpeg" alt="Image of Carlsbad, CA beach at sunset" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div id="footerRow-1">
+            <div id="logoName">
+                <img src="images/logo.png" alt="Bountiful Foods Logo">
+                <p>Bountiful Foods</p>
+            </div>
+            <div id="footerContact">
+                <p>1234 N. 5678 W. Carlsbad, CA 92008</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <div id="footerRow-2">
+            <p id="footer"></p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>

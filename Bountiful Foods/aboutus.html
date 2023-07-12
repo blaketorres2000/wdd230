@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Blake Torres"
+        content="Bountiful Foods Home Page for Blake Torres in WDD 230: Web Frontend Development at BYU - Idaho">
+    <title>Bountiful Foods Home Page</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div id="date"></div>
+        <div id="headerRow-1">
+            <a href="index.html" class="active">
+                <img src="images/logo.png" alt="Bountiful Foods Logo">
+            </a>
+        </div>
+        <div id="headerRow-2">
+            <nav>
+                <ul class="nav-ul responsive" id="nav-ul">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <div id="footerRow-1">
+            <div id="logoName">
+                <img src="images/logo.png" alt="Bountiful Foods Logo">
+                <p>Bountiful Foods</p>
+            </div>
+            <div id="footerContact">
+                <p>1234 N. 5678 W. Carlsbad, CA 92008</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <div id="footerRow-2">
+            <p id="footer"></p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>

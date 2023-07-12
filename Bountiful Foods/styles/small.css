@@ -1,0 +1,451 @@
+body {
+    background-color: white;
+    max-width: 1600px;
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #8bcd6f;
+    color: #33476f;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#headerRow-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#date {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* This is the navigation menu */
+
+#headerRow-2 nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+.nav-ul {
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.nav-ul li a.active {
+    color: #33476f;
+    font-style: italic;
+}
+
+.nav-ul li a.active:hover {
+    color: black;
+}
+
+.nav-ul li:first-child {
+    display: block;
+    color: white;
+}
+
+.nav-ul li {
+    display: none;
+    font-size: 15px;
+    margin-right: 6vw;
+}
+
+.responsive li {
+    display: block;
+}
+
+.nav-ul a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 2vw;
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+}
+
+.nav-ul a:hover {
+    color: black;
+    background-color: #f19f73;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+/* Main Content */
+
+main {
+    margin-top: 20px;
+}
+
+/* Hero Image on Home Page */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#heroImage {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+#heroImage img {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+#heroImage h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.429);
+    padding: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 10vw;
+    border-radius: 50%;
+}
+
+/* Fresh Drinks on Home Page */
+
+#freshDrinkContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.freshDrink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#freshMain {
+    max-width: 600px;
+}
+
+.freshDrink h2 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #33476f;
+    text-shadow: 6px 1px 8px rgba(0, 0, 0, 0.315);
+}
+
+.freshDrink img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+    border-radius: 15%;
+}
+
+.freshDrink #freshText {
+    font-family: 'Roboto Slab', serif;
+    max-width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+    border-radius: 25%;
+    background-color: #f19f7326;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    margin: 15px;
+    padding: 15px;
+    color: black;
+}
+
+#drinkList {
+    margin-top: 30px;
+}
+
+#drinkList h2 {
+    font-size: 35px;
+}
+
+#drinkList ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#drinkList li {
+    margin: 10px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #dedddd;
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* Social Media */
+
+.social {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.social h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #33476f;
+    text-shadow: 6px 1px 8px rgba(0, 0, 0, 0.315);
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 1px solid #3333333c;
+    background-color: #fff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+    transition: background-color 1s ease;
+}
+
+.socialMedia a:hover {
+    background-color: #9a9696;
+}
+
+.socialMedia img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Weather */
+
+.weather-container {
+    background-color: #f1f1f17a;
+    border-radius: 25%;
+    border: 1px solid #3333333c;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#weather {
+    margin: 0;
+}
+
+#weather h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #33476f;
+    text-shadow: 4px 1px 8px rgba(0, 0, 0, 0.315);
+}
+
+.line1 {
+    width: 200px;
+    height: 2px;
+    background-color: #333;
+    margin: 20px auto;
+}
+
+.temp-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: #8bcd6f0d;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.temperature {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.temperature p {
+    margin: 0;
+}
+
+#weather-icon img {
+    width: 100px;
+    height: 100px;
+    margin-top: -25px;
+}
+
+.humidity {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    background-color: #8bcd6f0d;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#forecast-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#forecast-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#forecast-list li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#forecast-list li span {
+    margin-right: 10px;
+}
+
+#forecast-list li strong {
+    font-weight: bold;
+}
+
+#weather-provider {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Information about the area */
+
+#areaInfo {
+    text-align: center;
+    margin-top: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#areaInfo h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #33476f;
+    text-shadow: 6px 1px 8px rgba(0, 0, 0, 0.315);
+}
+
+#areaInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#areaInfoText {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+#areaInfoText p {
+    font-family: 'Roboto Slab', serif;
+    max-width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.153);
+    border-radius: 25%;
+    background-color: #f19f7326;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    margin: 15px;
+    padding: 35px;
+    color: black;
+}
+
+#areaInfoImage img {
+    border-radius: 20%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #33476f;
+    color: #d6affb;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0;
+    border-top: 1px solid #e6e6e6;
+}
+
+#footerRow-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logoName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoName p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#footerRow-1 img {
+    height: 50px;
+    width: 50px;
+    justify-content: flex-start;
+    border-radius: 50%;
+}
+
+#footerContact {
+    font-size: 14px;
+}
+
+#footerRow-2 {
+    margin: 0 auto;
+}
