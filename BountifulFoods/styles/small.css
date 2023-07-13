@@ -173,7 +173,7 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.153);
     border-radius: 25%;
     background-color: #f19f7326;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
     margin: 15px;
     padding: 15px;
     color: black;
@@ -190,7 +190,7 @@ main {
     text-decoration: none;
     border-radius: 10px;
     border: none;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
     transition: background-color 0.5s ease;
 }
 
@@ -204,7 +204,7 @@ main {
     border: 1px solid #666;
     border-radius: 25%;
     background-color: #f19f7326;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
     max-width: calc(100% - 20px);
 }
 
@@ -462,7 +462,7 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.153);
     border-radius: 10%;
     background-color: #f19f7326;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
     padding: 5px;
     margin-bottom: 60px;
     width: 325px;
@@ -502,7 +502,7 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.153);
     border-radius: 10%;
     background-color: #8bcd6f4a;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
     padding: 50px 20px 90px 20px;
     margin-bottom: 60px;
     width: 325px;
@@ -551,7 +551,7 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.153);
     border-radius: 10%;
     background-color: #f19f7326;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.622);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
     padding: 50px 20px 90px 20px;
     margin-bottom: 60px;
     width: 325px;
@@ -580,7 +580,7 @@ main {
 #freshPageMain h1 {
     font-size: 35px;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
     color: #33476f;
     text-shadow: 6px 1px 8px rgba(0, 0, 0, 0.315);
     text-decoration: underline;
@@ -597,25 +597,73 @@ form {
 label {
     display: block;
     font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 300px;
+    height: 30px;
     padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.622);
 }
 
+#fruit1,
+#fruit2,
+#fruit3 {
+    width: 300px;
+    height: 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#specialInstructions {
+    width: 300px;
+    height: 200px;
+}   
+
 button[type="submit"] {
-    background-color: #333;
+    margin-top: 15px;
+    background-color: #33476f;
     color: #fff;
     border: none;
+    border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+}
+
+button[type="submit"]:hover {
+    background-color: #f19f73;
+    color: black;
 }
 
 #output {
     margin-top: 20px;
+}
+
+#orderOutput {
+    width: 300px;
+    height: 600px;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #f19f7326;
+    border: 1px solid rgba(0, 0, 0, 0.622);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.622);
+}
+
+#orderOutput h3 {
+    color: #33476f;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #output h3 {

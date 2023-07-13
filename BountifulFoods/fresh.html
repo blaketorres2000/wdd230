@@ -39,43 +39,45 @@
 
     <main id="freshPageMain">
         <h1>Build Your Own Specialty Drink</h1>
-        <form id="drinkForm">
-            <h2>Build Your Own Specialty Drink</h2>
-            <div>
-                <label for="drinkName">Drink Name:</label>
-                <input type="text" id="drinkName" required>
-            </div>
-            <div>
-                <label for="firstName">First Name:</label>
-                <input type="text" id="firstName" required>
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" required>
-            </div>
-            <div>
-                <label for="phone">Phone Number:</label>
-                <input type="text" id="phone" required>
-            </div>
-            <div>
-                <label for="fruit1">Fruit 1:</label>
-                <select id="fruit1" required></select>
-            </div>
-            <div>
-                <label for="fruit2">Fruit 2:</label>
-                <select id="fruit2" required></select>
-            </div>
-            <div>
-                <label for="fruit3">Fruit 3:</label>
-                <select id="fruit3" required></select>
-            </div>
-            <div>
-                <label for="specialInstructions">Special Instructions:</label>
-                <textarea id="specialInstructions"></textarea>
-            </div>
-            <button type="submit">Submit</button>
-        </form>
-        <div id="orderOutput"></div>
+        <div id="freshOrganizer">
+            <form id="drinkForm">
+                <div>
+                    <label for="drinkName">Drink Name:</label>
+                    <input type="text" id="drinkName" placeholder="Give your drink a custom name" required>
+                </div>
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" autocomplete="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" autocomplete="tel-national" required>
+                </div>
+                <div>
+                    <label for="fruit1">Fruit 1:</label>
+                    <select id="fruit1"></select>
+                </div>
+                <div>
+                    <label for="fruit2">Fruit 2:</label>
+                    <select id="fruit2"></select>
+                </div>
+                <div>
+                    <label for="fruit3">Fruit 3:</label>
+                    <select id="fruit3"></select>
+                </div>
+                <div>
+                    <label for="specialInstructions">Special Instructions:</label>
+                    <textarea id="specialInstructions"></textarea>
+                </div>
+                <button type="submit">Create Drink</button>
+            </form>
+            <div id="orderOutput"></div>
+        </div>
+        <p id="drinkCount"></p>
     </main>
 
     <footer>

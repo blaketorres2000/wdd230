@@ -1,3 +1,9 @@
+// Retrieve the current drink count from localStorage or default to 0
+let drinkCount = localStorage.getItem("drinkCount") || 0;
+document.getElementById(
+  "drinkCount"
+).textContent = `Custom drinks created: ${drinkCount}`;
+
 // Load the fruit data from JSON file
 fetch("fruits.json")
   .then((response) => response.json())
@@ -7,7 +13,7 @@ fetch("fruits.json")
     fruitSelects.forEach((select) => {
       fruitData.forEach((fruit) => {
         const option = document.createElement("option");
-        option.value = fruit.id;
+        option.value = fruit.name;
         option.textContent = fruit.name;
         select.appendChild(option);
       });
@@ -39,8 +45,8 @@ fetch("fruits.json")
         sugar: 0,
       };
 
-      selectedFruits.forEach((fruitId) => {
-        const fruit = fruitData.find((fruit) => fruit.id === parseInt(fruitId));
+      selectedFruits.forEach((fruitName) => {
+        const fruit = fruitData.find((fruit) => fruit.name === fruitName);
         if (fruit) {
           totalNutrition.carbohydrates += fruit.nutritions.carbohydrates;
           totalNutrition.protein += fruit.nutritions.protein;
@@ -49,6 +55,13 @@ fetch("fruits.json")
           totalNutrition.sugar += fruit.nutritions.sugar;
         }
       });
+
+      // Convert the nutrition values to 2 decimal places
+      totalNutrition.carbohydrates = totalNutrition.carbohydrates.toFixed(2);
+      totalNutrition.protein = totalNutrition.protein.toFixed(2);
+      totalNutrition.fat = totalNutrition.fat.toFixed(2);
+      totalNutrition.calories = totalNutrition.calories.toFixed(2);
+      totalNutrition.sugar = totalNutrition.sugar.toFixed(2);
 
       // Store the drink information in local storage
       const drinkInfo = {
@@ -85,6 +98,12 @@ fetch("fruits.json")
         </ul>
         <p>Order date: ${new Date().toLocaleString()}</p>
       `;
+      // Increment the drink count and update the display
+      drinkCount++;
+      document.getElementById(
+        "drinkCount"
+      ).textContent = `Custom drinks created: ${drinkCount}`;
+      localStorage.setItem("drinkCount", drinkCount);
     }
 
     // Add event listener to the form

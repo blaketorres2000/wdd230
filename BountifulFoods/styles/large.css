@@ -88,4 +88,9 @@
         width: 860px;
     }
 
+    #freshOrganizer {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
 }
