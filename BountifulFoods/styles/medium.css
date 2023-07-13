@@ -83,4 +83,19 @@
         padding: 25px;
     }
 
+    #contactInfo {
+        width: 525px;
+    }
+
+    #map a img {
+        width: 500px;
+    }
+
+    #companyDescription {
+        width: 525px;
+    }
+
+    #foodTruck {
+        width: 525px;
+    }
 }

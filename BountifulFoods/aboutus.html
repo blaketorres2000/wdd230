@@ -29,15 +29,97 @@
             <nav>
                 <ul class="nav-ul responsive" id="nav-ul">
                     <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="fresh.html">Fresh</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.html" class="active">About Us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
+        <main id="aboutUs">
+            <h1>About Us</h1>
+            <div id="contactInfo">
+                <div id="contactInfoColumn-1">
+                    <h2>Hours</h2>
+                    <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                    <p>Saturday: 9:00 AM - 6:00 PM</p>
+                    <p>Sunday: Closed</p>
+                    <h2>Contact</h2>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: blankemail@gmail.com</p>
+                </div>
+                <div id="contactInfoColumn-2">
+                    <h2>Location</h2>
+                    <p>1234 N. 5678 W.</p>
+                    <p>Carlsbad, CA 92008</p>
+                    <div id="map" class="map-container">
+                        <a href="https://maps.google.com/?q=Carlsbad+Village+Faire" target="_blank">
+                            <img src="images/mapcarlsbad.png" alt="Map">
+                        </a>
+                    </div>        
+                </div>
+            </div>
+            <div id="foodTruck">
+                <h2>Locate a Food Truck</h2>
+                <p>Our main food truck is located at the Carlsbad Village Faire every Saturday from 9:00 AM - 6:00 PM.</p>
+                <h3>Other Locations</h3>
+                <p id="updatedLocations">Check back here for updated locations</p>
+                <h4><a href="https://www.google.com/maps/search/?api=1&query=Waterfront+Park%2C+1600+Pacific+Hwy%2C+San+Diego%2C+CA+92101" target="_blank">Waterfront Park</a></h4>
+                <p>1600 Pacific Hwy, San Diego, CA 92101</p>
+                <h4><a href="https://www.google.com/maps/search/?api=1&query=Liberty+Public+Market%2C+2820+Historic+Decatur+Rd%2C+San+Diego%2C+CA+92106" target="_blank">Liberty Public Market</a></h4>
+                <p>2820 Historic Decatur Rd, San Diego, CA 92106</p>
+                <h4><a href="https://www.google.com/maps/search/?api=1&query=Quartyard%2C+1301+Market+St%2C+San+Diego%2C+CA+92101" target="_blank">Quartyard</a></h4>
+                <p>1301 Market St, San Diego, CA 92101</p>
+                <h4><a href="https://www.google.com/maps/search/?api=1&query=Balboa+Park%2C+1549+El+Prado%2C+San+Diego%2C+CA+92101" target="_blank">Balboa Park</a></h4>
+                <p>1549 El Prado, San Diego, CA 92101</p>
+                <h4><a href="https://www.google.com/maps/search/?api=1&query=UTC+Mall%2C+4545+La+Jolla+Village+Dr%2C+San+Diego%2C+CA+92122" target="_blank">UTC Mall</a></h4>
+                <p>4545 La Jolla Village Dr, San Diego, CA 92122</p>
+                            </div>
+            <section id="companyDescription">
+                <h2>About Our Company</h2>
+                <p>
+                    Welcome to Bountiful Foods, a premier produce company located in the picturesque coastal city of
+                    Carlsbad, California. We are passionate about providing the highest quality fresh fruits and
+                    vegetables to our community and promoting a healthy lifestyle through our range of delicious and
+                    refreshing fruit and vegetable drinks.
+                </p>
+                <p>
+                    Bountiful Foods was founded with a simple yet powerful mission: to make nutritious and flavorful
+                    drinks accessible to everyone. We believe that nature's bountiful offerings can be transformed into
+                    delightful concoctions that not only tantalize the taste buds but also nourish the body. With a
+                    commitment to using only the freshest, locally sourced ingredients, we strive to create beverages
+                    that are as wholesome as they are enjoyable.
+                </p>
+                <p>
+                    What sets us apart is our innovative approach to blending flavors and textures. Our team of expert
+                    mixologists combines an array of vibrant fruits and vegetables, carefully selecting each ingredient
+                    to ensure optimal taste and nutritional value. From revitalizing smoothies to invigorating juices,
+                    every drink is a testament to our dedication to crafting the perfect balance of flavors.
+                </p>
+                <p>
+                    In addition to our storefront in Carlsbad, we have taken our passion for fresh drinks on the road
+                    with our fleet of vibrant food trucks. You can find our mobile units stationed at various locations
+                    throughout the San Diego area, bringing the goodness of Bountiful Foods directly to the community.
+                    Whether you're strolling along the beach or exploring local events, our food trucks offer a
+                    convenient and exciting way to experience our delectable beverages.
+                </p>
+                <p>
+                    At Bountiful Foods, we prioritize sustainability and environmental responsibility. We work closely
+                    with local farmers who share our commitment to organic and eco-friendly practices. By supporting
+                    local agriculture and reducing our carbon footprint, we aim to contribute to a greener and more
+                    sustainable future for our planet.
+                </p>
+                <p>
+                    Our journey is made possible by the unwavering support of our loyal customers. We are grateful for
+                    the opportunity to serve you and be a part of your healthy lifestyle. Join us in celebrating the
+                    flavors of nature and experience the refreshing taste of our handcrafted drinks.
+                </p>
+            </section>
+        </main>
+
+
 
     </main>
 
@@ -57,7 +139,6 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
